@@ -6,7 +6,7 @@ import KontaktPagePreview from './preview-templates/KontaktPagePreview'
 import ReferencjePagePreview from './preview-templates/ReferencjePagePreview'
 
 CMS.registerPreviewStyle('/styles.css')
-CMS.registerPreviewTemplate('ofundacji', OfundacjiPagePreview)
+CMS.registerPreviewTemplate('oferta', OfertaPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('omnie', OmniePagePreview)
 CMS.registerPreviewTemplate('kontakt', KontaktPagePreview)
