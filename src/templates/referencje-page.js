@@ -47,7 +47,7 @@ export const ReferencjePageTemplate = ({ title, content, contentComponent, slug,
   )
 }
 
-RefrenecjePageTemplate.propTypes = {
+ReferencjePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
