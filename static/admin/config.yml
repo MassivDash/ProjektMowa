@@ -51,8 +51,8 @@ collections:
         - {label: "Description", name: "description", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/referencje/index.md"
-        label: "Omnie"
-        name: "omnie"
+        label: "Referencje"
+        name: "referencje"
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "referencje-page"}
         - {label: "Title", name: "title", widget: "string"}
