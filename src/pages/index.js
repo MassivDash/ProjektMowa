@@ -37,7 +37,7 @@ export default class IndexPage extends React.Component {
         items: 3
       }
     };    
-    const Slides = posts.filter(post => post.node.frontmatter.templateKey === 'projekt-post')
+    const Slides = posts.filter(post => post.node.frontmatter.templateKey === 'blog-post')
     .map(({ node: post, i }) => (
       <div key={i + 1} ><Slide
         key={i}
@@ -152,7 +152,7 @@ export default class IndexPage extends React.Component {
             <div className="column">
 
 {posts
-.filter(post => post.node.frontmatter.templateKey === 'ofundacji-page')
+.filter(post => post.node.frontmatter.templateKey === 'oferta-page')
 .map(({ node: post }) => (
  <div
    className="content mycontent"

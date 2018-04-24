@@ -7,9 +7,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "projekt"
-    label: "Projekt"
-    folder: "src/pages/projekt"
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -23,9 +23,9 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/ofundacji/index.md"
-        label: "Ofundacji"
-        name: "ofundacji"
+      - file: "src/pages/oferta/index.md"
+        label: "Oferta"
+        name: "oferta"
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "ofundacji-page"}
         - {label: "Title", name: "title", widget: "string"}
@@ -42,8 +42,8 @@ collections:
         - {label: "Description", name: "description", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/cele/index.md"
-        label: "Cele"
-        name: "cele"
+        label: "Omnie"
+        name: "omnie"
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cele-page"}
         - {label: "Title", name: "title", widget: "string"}

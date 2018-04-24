@@ -1,11 +1,13 @@
 import CMS from 'netlify-cms'
-import OfundacjiPagePreview from './preview-templates/OfundacjiPagePreview'
-import ProjektPostPreview from './preview-templates/ProjektPostPreview'
-import CelePagePreview from './preview-templates/CelePagePreview'
+import OfertaPagePreview from './preview-templates/OfertaPagePreview'
+import BlogPostPreview from './preview-templates/BlogPostPreview'
+import OmniePagePreview from './preview-templates/OmniePagePreview'
 import KontaktPagePreview from './preview-templates/KontaktPagePreview'
+import ReferencjePagePreview from './preview-templates/ReferencjePagePreview'
 
 CMS.registerPreviewStyle('/styles.css')
 CMS.registerPreviewTemplate('ofundacji', OfundacjiPagePreview)
-CMS.registerPreviewTemplate('projekt', ProjektPostPreview)
-CMS.registerPreviewTemplate('cele', CelePagePreview)
+CMS.registerPreviewTemplate('blog', BlogPostPreview)
+CMS.registerPreviewTemplate('omnie', OmniePagePreview)
 CMS.registerPreviewTemplate('kontakt', KontaktPagePreview)
+CMS.registerPreviewTemplate('refrenecje', RefrencjePagePreview)

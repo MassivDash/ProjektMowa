@@ -1,5 +1,5 @@
 ---
-templateKey: projekt-post
+templateKey: blog-post
 title: JAN JAŹWIŃSKI
 date: 2016-12-17T15:04:10.000Z
 thumbnail: /img/background.jpg

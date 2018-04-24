@@ -6,7 +6,7 @@ import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
 
-export const CelePageTemplate = ({ title, content, contentComponent, slug, postNode, thumbnail, description, helmet }) => {
+export const ReferencjePageTemplate = ({ title, content, contentComponent, slug, postNode, thumbnail, description, helmet }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -47,7 +47,7 @@ export const CelePageTemplate = ({ title, content, contentComponent, slug, postN
   )
 }
 
-CelePageTemplate.propTypes = {
+RefrenecjePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -55,12 +55,12 @@ CelePageTemplate.propTypes = {
   excerpt: PropTypes.string
 }
 
-const CelePage = ({ data }) => {
+const ReferencjePage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     
-    <CelePageTemplate
+    <ReferencjePageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       postNode={data.markdownRemark}
@@ -73,14 +73,14 @@ const CelePage = ({ data }) => {
   )
 }
 
-CelePage.propTypes = {
+ReferencjePage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default CelePage
+export default ReferencjePage
 
-export const celePageQuery = graphql`
- query CelePage($id: String!) {
+export const referencjePageQuery = graphql`
+ query ReferencjePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
     html
     excerpt

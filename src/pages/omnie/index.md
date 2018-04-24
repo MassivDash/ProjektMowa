@@ -1,6 +1,6 @@
 ---
-templateKey: cele-page
-title: Cele
+templateKey: omnie-page
+title: O mnie
 thumbnail: /img/background.jpg
 description: >-
   Celem Fundacji jest popieranie wszechstronnego rozwoju społeczeństwa

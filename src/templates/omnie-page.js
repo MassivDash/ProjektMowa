@@ -6,22 +6,14 @@ import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
 
-export const OfundacjiPageTemplate = ({ 
-  title, 
-  content, 
-  contentComponent, 
-  slug, 
-  postNode, 
-  thumbnail, 
-  description, 
-  helmet }) => {
+export const OmniePageTemplate = ({ title, content, contentComponent, slug, postNode, thumbnail, description, helmet }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
       {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
-  <section 
+    <section 
   className="hero is-info is-small " style={{
     background: "url(" + thumbnail + ")",
     backgroundSize: "cover",
@@ -55,7 +47,7 @@ export const OfundacjiPageTemplate = ({
   )
 }
 
-OfundacjiPageTemplate.propTypes = {
+OmniePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -63,32 +55,32 @@ OfundacjiPageTemplate.propTypes = {
   excerpt: PropTypes.string
 }
 
-const OfundacjiPage = ({ data }) => {
+const OmniePage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <OfundacjiPageTemplate
+    
+    <OmniePageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      content={post.html}
       postNode={data.markdownRemark}
+      content={post.html}
       slug={post.fields.slug}
-      thumbnail={post.frontmatter.thumbnail}
-      description={post.frontmatter.description}
       helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
-      
+      description={post.frontmatter.description}
+      thumbnail={post.frontmatter.thumbnail}
     />
   )
 }
 
-OfundacjiPage.propTypes = {
+OmniePage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default OfundacjiPage
+export default OmniePage
 
-export const ofundacjiPageQuery = graphql`
-  query OfundacjiPage($id: String!) {
+export const comniePageQuery = graphql`
+ query OmniePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
     html
     excerpt

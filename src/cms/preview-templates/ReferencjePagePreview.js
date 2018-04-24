@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { CelePageTemplate } from '../../templates/cele-page'
+import { ReferencjePageTemplate } from '../../templates/referencje-page'
 import '../../layouts/all.sass'
 
-const CelePagePreview = ({ entry, widgetFor }) => (
-  <CelePageTemplate
+const ReferencjePagePreview = ({ entry, widgetFor }) => (
+  <ReferencjePageTemplate
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
@@ -26,11 +26,11 @@ const CelePagePreview = ({ entry, widgetFor }) => (
 )
 
 
-CelePagePreview.propTypes = {
+ReferencjePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default CelePagePreview
+export default ReferencjePagePreview

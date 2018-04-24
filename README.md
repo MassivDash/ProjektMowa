@@ -1,6 +1,6 @@
-# Nowa Idea website build on gatbsy.js using netlify cms. 
+# Projekt Mowa website build on gatbsy.js using netlify cms. 
 
-https://nowaidea.org.pl
+https://projektmowa.pl
 
 includes: 
 * Dynamic alice carousel for projects slider 

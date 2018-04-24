@@ -7,7 +7,7 @@ import Content, { HTMLContent } from '../components/Content'
 import config from "../../data/SiteConfig";
 import SEO from '../components/SEO/seo';
 
-export const ProjektPostTemplate = ({
+export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -76,7 +76,7 @@ export const ProjektPostTemplate = ({
   )
 }
 
-ProjektPostTemplate.propTypes = {
+BlogPostTemplate.propTypes = {
   content: PropTypes.string.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -84,11 +84,11 @@ ProjektPostTemplate.propTypes = {
   helmet: PropTypes.instanceOf(Helmet),
 }
 
-const ProjektPost = ({ data }) => {
+const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <ProjektPostTemplate
+    <BlogPostTemplate
       content={post.html}
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
@@ -104,16 +104,16 @@ const ProjektPost = ({ data }) => {
   )
 }
 
-ProjektPost.propTypes = {
+BlogPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default ProjektPost
+export default BlogPost
 
 export const pageQuery = graphql`
-  query ProjektPostByID($id: String!) {
+  query BlogPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

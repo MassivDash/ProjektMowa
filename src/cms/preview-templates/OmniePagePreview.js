@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { OfundacjiPageTemplate } from '../../templates/ofundacji-page'
+import { OmniePageTemplate } from '../../templates/omnie-page'
+import '../../layouts/all.sass'
 
-const OfundacjiPagePreview = ({ entry, widgetFor }) => (
-  <OfundacjiPageTemplate
+const OmniePagePreview = ({ entry, widgetFor }) => (
+  <OmniePageTemplate
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
@@ -16,8 +17,7 @@ const OfundacjiPagePreview = ({ entry, widgetFor }) => (
         description: entry.getIn(['data', 'description']),
         tags: entry.getIn(['data', 'tags']),
         title: entry.getIn(['data', 'title']),
-        thumbnail: entry.getIn(['data', 'thumbnail' ])    
-
+        thumbnail: entry.getIn(['data', 'thumbnail' ])  
       }
       
 
@@ -25,11 +25,12 @@ const OfundacjiPagePreview = ({ entry, widgetFor }) => (
   />
 )
 
-OfundacjiPagePreview.propTypes = {
+
+OmniePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default OfundacjiPagePreview
+export default OmniePagePreview

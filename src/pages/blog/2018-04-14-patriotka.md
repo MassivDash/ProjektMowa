@@ -1,5 +1,5 @@
 ---
-templateKey: projekt-post
+templateKey: blog-post
 title: PATRIOTKA
 date: 2017-01-04T15:04:10.000Z
 thumbnail: /img/background.jpg
