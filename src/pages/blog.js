@@ -4,10 +4,10 @@ import Link from 'gatsby-link'
 import thumbnail from '../img/background.jpg'
 
 
-export default class ProjektyPage extends React.Component {
+export default class BlogPage extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: projekt } = data.allMarkdownRemark
+    const { edges: blog } = data.allMarkdownRemark
     
     return (
       <div>
@@ -32,26 +32,26 @@ export default class ProjektyPage extends React.Component {
       <section className="section">
         <div className="container">
           
-          {projekt
-            .filter(projekt => projekt.node.frontmatter.templateKey === 'projekt-post')
-            .map(({ node: projekt }) => (
+          {blog
+            .filter(blog => blog.node.frontmatter.templateKey === 'blog-post')
+            .map(({ node: blog }) => (
               <div
                 className="content"
                 style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                key={projekt.id}
+                key={blog.id}
               >
                 <p>
-                  <Link className="has-text-primary" to={projekt.fields.slug}>
-                    {projekt.frontmatter.title}
+                  <Link className="has-text-primary" to={blog.fields.slug}>
+                    {blog.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
-                  <small>{projekt.frontmatter.date}</small>
+                  <small>{blog.frontmatter.date}</small>
                 </p>
                 <p>
-                  {projekt.excerpt}
+                  {blog.excerpt}
                   <br />
                   <br />
-                  <Link className="button is-small" to={projekt.fields.slug}>
+                  <Link className="button is-small" to={blog.fields.slug}>
                     Czytaj Więcej →
                   </Link>
                 </p>
@@ -64,7 +64,7 @@ export default class ProjektyPage extends React.Component {
   }
 }
 
-ProjektyPage.propTypes = {
+BlogPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -73,7 +73,7 @@ ProjektyPage.propTypes = {
 }
 
 export const pageQuery = graphql`
-  query ProjektyQuery {
+  query BlogQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
