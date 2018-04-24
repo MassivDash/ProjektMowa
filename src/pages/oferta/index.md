@@ -3,44 +3,37 @@ templateKey: oferta-page
 title: Oferta
 thumbnail: /img/background.jpg
 description: >-
- Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.
+  Staram się, by podczas zajęć nigdy nie zabrakło pozytywnej atmosfery, bo to
+  dobry humor jest często nieocenioną pomocą przy przełamaniu pierwszych oporów
+  wobec ćwiczeń.
 ---
-**Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.**
+## DOROŚLI
 
-Podejmujemy wspólnie z przedstawicielami świata nauki, kultury, biznesu i polityki działania, których celem jest znalezienie wizji tożsamości polskiej i współczesnego patriotyzmu w nowym wieku, podkreślenie korelacji pomiędzy planami życiowymi poszczególnych jednostek, a projektami wzmacniającymi pozycję państwa i społeczeństwa, uwypuklenie obszaru, który w życiu wielu ludzi jest ważny, a zarazem wspólny z innymi. Korzystając z dorobku naszych przodków warto na nowo wyrazić aspiracje i marzenia współczesnych pokoleń w sposób przystępny i możliwy do identyfikacji dla ogółu społeczeństwa.
+Fascynuje mnie praca z dorosłymi, to moje oczko w głowie i wiatr w żagle. Uczy mnie też ogromnej pokory. Staram się, by podczas zajęć nigdy nie zabrakło pozytywnej atmosfery, bo to dobry humor jest często nieocenioną pomocą przy przełamaniu pierwszych oporów wobec ćwiczeń.
 
-Mamy nadzieję zachęcić jak największe grono wizjonerów do artykułowania własnych pomysłów, tak by stworzyć jak najciekawszy, atrakcyjny projekt, znajdujący bardzo szerokie poparcie społeczne, stający się częścią myśli zbiorowej.
+W zależności od wyników diagnozy i potrzeb klienta, pracujemy nad:
 
-W ramach naszych działań aktualnie skupiamy się na trzech projektach:
+* poprawą wrazistości wypowiedzi,
+* korekcją wad artykulacyjnych,
+* emisją głosu w różnych warunkach pracy,
+* postawą ciała,
+* prawidłowym torem oddechowym,
+* pawidłową fonacją,
+* funkcjami języka i całego układu orofacjalnego w trakcie i po terapii ortodontycznej,
+* autoprezentacją.
 
-* PATRIOTKA NOC 
-* NIEPODLEGŁOŚCI 10.11
-* REPRYWATYZACJA 
+Zajęcia prowadzę nie tylko indywiualnie, ale także grupowo. Ich forma jest uzależniona od potrzeb klienta. Staram się, by wiedza była przekazywana w sposób atrakcyjny, dostosowany do oczekiwań osób ze mną współpracujących. Stawiam na praktykę okraszoną ciekawą teorią.
 
-Trzy kolejne są w fazie przygotowawczej:
+## DZIECI
 
-* TRZY ZDANIA O POLSCE
-* JAN JAŹWIŃSKI 
-* KONWENTYKIEL POLSKICH LUTERKÓW z okazji 500-lecia wystąpienie Marcina Lutra
+W pracy z dziećmi piękne jest to, że pokazują świat takim jakim on jest. Prostota, wdzięk, radość i otwartość. Tego uczę się od nich. A to co ja mogę im zaoferować to mądrze prowadzona profilaktyka logopedyczna, ale także diagnoza i terapia:
 
-**Dane Fundacji:**  
-Numer w Krajowym Rejestrze Sądowym KRS: 0000441173  
-Nr NIP: 957-106-70-83  
-nr REGON: 221789396  
-Adres siedziby:  
-ul.: Jesionowa 11/7
-80-261 Gdańsk   
+* opóźnionego i zaburzonego rozwoju mowy,
+* dyslalii, czyli trudności artykulacyjnych obejmujących deformacje i substytucje głosek,
+* funkcji układu orofacjalnego przed, w trakcie i po terapii ortodontycznej.
 
+Spotykam na swojej drodze wielu zaangażowanych rodziców, mających na celu prawidłowy rozwój swoich pociech. Im także należy się wsparcie, którego zawsze staram się udzielać. 
 
-**Numer rachunku bankowego:**  
-18 1240 1242 1111 0010 4875 8245  
-Bank Polska Kasa Opieki Spółka Akcyjna
+**Jak ta praca wygląda? Najlepszym sposobem dotracia do małego człowieka jest zabawa.**
 
-**Zarząd Fundacji:**  
-Tomasz Luterek – Prezes  
-Małgorzata Koprowska
-
-**Rada Fundacji:**  
-Marcin Jabłonowski – Przewodniczący  
-Artur Kotulski  
-Bartosz Luterek
+**To tu, między śmiechami i ulubionymi aktywnościami dzieci, stram się przemycać to, co jest im potrzebne. Oczywiście są także momenty trudu i zniechęcenia, każde dziecko inaczej znosi terapię. Wtedy ważne jest byśmy wszyscy – dzieci, rodzice i ja – byli jedną drużną, grającą do tej samej bramki. Wzajemne wsparcie i wysiłek włożony także przez rodziców w codzienną pracę, prędzej czy później, przynosi owoce. Zbieranie ich i kosztowanie to największa satysfakcja!**
