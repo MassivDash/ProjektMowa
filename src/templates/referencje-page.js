@@ -73,7 +73,7 @@ const ReferencjePage = ({ data }) => {
   )
 }
 
-ReferencjePage.propTypes = {
+ ReferencjePage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
