@@ -1,32 +1,35 @@
 ---
 templateKey: omnie-page
 title: O mnie
-thumbnail: /img/background.jpg
+thumbnail: /img/omnie.jpg
 description: >-
-  Celem Fundacji jest popieranie wszechstronnego rozwoju społeczeństwa
-  polskiego, a zwłaszcza działalności społecznej, informacyjnej, kulturalnej,
-  naukowej i oświatowej na rzecz rozwoju rynku, demokracji i społeczeństwa
-  obywatelskiego w Polsce oraz zbliżenia narodów i państw Europy Środkowej i
-  Wschodniej.
+  Na swoich zajęciach porzucam stolik na rzecz pracy z całym ciałem. Dawkuję
+  sobie nowe porcje wiedzy, w postaci szkoleń i kursów, by jak najlepiej pomóc
+  małemu i dużemu pacjentowi.
 ---
-**Celem Fundacji jest popieranie wszechstronnego rozwoju społeczeństwa polskiego, a zwłaszcza działalności społecznej, informacyjnej, kulturalnej, naukowej i oświatowej na rzecz rozwoju rynku, demokracji i społeczeństwa obywatelskiego w Polsce oraz zbliżenia narodów i państw Europy Środkowej i Wschodniej.**
+**Moim wielkim zainteresowaniem cieszą się prymarne funkcje układu orofacjalnego. Lubię zaglądać ludziom do buzi, ale tylko za ich pozwoleniem. Z uwagą przyglądam się budowie i funkcjonowaniu układu żucia i stawom skroniowo-żuchwowym,dzięki czemu moi pacjenci w porę konsultowani są z ortodontami, fizjoterapeutami lub innymi specjalistami.**
 
-Fundacja realizuje cele statutowe podejmując i organizując (we własnym zakresie oraz wspierając finansowo, rzeczowo lub organizacyjnie inne organizacje i instytucje prowadzące):
+Z powodzeniem prowadzę zajęcia z dziećmi w różnym wieku z rozmaitymi zaburzeniami
+mowy. Uwiebiam pracę z dorosłymi, bo to ona daje mi możliwość rozwoju logopedycznych
+czarów, bez użycia zabawek.
 
-* działania służące upowszechnieniu zasad demokratycznego państwa prawa, 
-* przejrzystości w życiu publicznym, 
-* społecznej kontroli nad instytucjami zaufania publicznego oraz przeciwdziałania patologiom życia publicznego i społecznego,działania na rzecz ochrony praw i swobód obywatelskich,
-* dostępu obywateli do informacji, 
-* pomocy prawnej i wymiaru sprawiedliwości oraz propagowania postaw obywatelskiej aktywności i odpowiedzialności, 
-* działania wspomagające rozwój społeczności lokalnych, 
-* samorządnych wspólnot, organizacji pozarządowych i innych instytucji działających na rzecz dobra publicznego w różnych dziedzinach życia społecznego (m.in.: edukacja, nauka, kultura, informacja,* integracja europejska, ochrona środowiska, ochrona zdrowia, przedsiębiorczość, pomoc społeczna, charytatywna i humanitarna), 
-* działania służące wyrównywaniu szans grup słabszych lub zagrożonych społecznym wykluczeniem (m.in. dzieci i młodzieży ze środowisk patologicznych lub terenów zaniedbanych gospodarczo, społecznie, kulturowo), 
-* współpracę międzynarodową na rzecz rozwoju demokracji, rynku, edukacji, nauki, kultury, wymiany informacji, ochrony środowiska i zdrowia, pomocy społecznej i humanitarnej, ze szczególnym uwzględnieniem współpracy w regionie Europy Środkowej i Wschodniej,
-* programy badawcze, informacyjne i wydawnicze służące zdobywaniu i upowszechnianiu wiedzy na temat zjawisk społecznych, ekonomicznych, politycznych, programy stypendialne i szkoleniowe dla młodzieży szkolnej i akademickiej, wolontariuszy oraz specjalistów różnych dziedzin,
-* działania wspierające środowiska naukowców i zespołów badawczych, pracujących w tych obszarach nauki, które posiadają znaczenie dla rozwoju cywilizacyjnego, kulturowego i gospodarczego Polski oraz jej międzynarodowego prestiżu, 
-* działania wspierające transfer polskich osiągnięć naukowych do praktyki gospodarczej działania wspierające inicjatywy inwestycyjne, służące nauce w Polsce Oprócz realizacji inicjowanych przez siebie przedsięwzięć, 
-* Fundacja współdziała z innymi instytucjami, organizacjami i osobami dla osiągania wspólnych celów statutowych. Współdziałanie to może mieć charakter wsparcia organizacyjnego, częściowego lub całkowitego finansowania przedsięwzięcia albo pomocy w uzyskaniu niezbędnych funduszy z innych źródeł.
+Z zaangażowaniem poszerzałam wiedzę z emisji głosu na studiach podyplomowych bo wiem, że tylko równorzędne traktowanie układów artykulacyjnego, fonacyjnego i oddechowego, może przynieść w pracy najlepsze rezultaty. Nie jestem ortodoksem – w swojej pracy dążę do stanu optimum, w którym staram pogodzić się automatyzację zdrowych nawyków i poczucie komfortu pacjenta.
 
-Fundacja realizuje cele statutowe także poprzez członkostwo w organizacjach zrzeszających fundacje polskie i zagraniczne, o celach statutowych zbieżnych lub tożsamych z celem Fundacji.
+Uczyłam się od najlepszych – począwszy od studiów logopedycznych na Akademii
+Pedagogiki Specjalnej, poprzez studia z zakresu kształcenia głosu i mowy na Uniwersytecie SWPS, aż po Uczelnię Łazarskiego, gdzie poszerzam wiedzę z neurologopedii. Dodać jeszcze liczne kursy i szkolenia, i mam szczęście stworzyć listę wspaniałych specjalistów.
 
-W ramach realizacji celów statutowych Fundacja może inicjować postępowania i przystępować do postępowań toczących się przed organami wymiaru sprawiedliwości oraz organami administracji publicznej w charakterze organizacji społecznej w sposób i na zasadach określonych w obowiązujących przepisach prawa.
+Są to m.in.:
+prof. AT Stanisław Górka, prof. AT Ryszard Olesiński, dr Svetlana Butska, dr Jacek
+Wasilewski, Maria Bończykowa, Bożena Targosz, Magdalena Kędzior, prof. Zbigniew
+Tarkowski, dr Ewa Jeżewska-Krasnodębska, dr Ewa Winnicka, Agnieszka Borowiec, dr
+Barbara Sambor i wielu innych…
+
+
+
+**Na co dzień prowadzę prywatną praktykę oraz współpracuję z Niepublicznym Ośrodkiem
+Terapeutycznym „Przystań Szkraba” w Warszawie.**
+
+Kiedy nie pracuję, to…pracuję. Tworzę wokół siebie chaos i specjalizuję się w panowaniu nad nim. Bez dobrych ludzi czuję się jak ryba bez wody. Upieram się, że kiedyś się wyśpię i napiszę książkę. Czytam Tolkiena, kiedy mam czas – rysuję, a ostatnio gotuję, testując nowe przepisy.
+
+Nie mogłabym żyć bez muzyki – to moje uzależnienie. Żałuję, że nie mogę częściej
+podróżować, zwłaszcza w góry i do Włoch. Jestem miłośniczką dobrego kina (najchętniej z Kapitanem Ameryka w roli głównej) i seriali Netflixa.
