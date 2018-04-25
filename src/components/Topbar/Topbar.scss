@@ -1,0 +1,46 @@
+$link-color: #4e4a4a;
+$spaceout-prime: #f6f6f6;
+
+.topbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+    padding: 5px 0;
+    background: white;
+    box-sizing: border-box;
+
+    a {
+    color: $link-color;
+    font-size: 0.8em;
+    }
+    .marginright {
+        margin-right: -20px;
+    }
+    
+    .contact-details {
+        width: 70%;
+        display: flex;
+    }
+    
+    .top-bar-item {
+        width: 11em;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        
+    }
+
+
+}
+
+.socialicons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 8%;
+    
+}
+
+
+ 

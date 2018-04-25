@@ -4,11 +4,12 @@ import Helmet from 'react-helmet'
 import Footer from '../components/Footer/Footer'
 
 
+
 import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-   
+  
     <div>{children()}</div>
     <Footer />
   </div>

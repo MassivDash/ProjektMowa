@@ -7,6 +7,7 @@ import config from "../../data/SiteConfig"
 import Slide from '../components/Slide/Slide'
 import Navbar from '../components/NavbarMainPage/Navbar'
 import logo from '../img/logo2.png'
+import Topbar from '../components/Topbar/Topbar'
 
 
 export default class IndexPage extends React.Component {
@@ -60,7 +61,7 @@ export default class IndexPage extends React.Component {
 
       <div>
       <Helmet>
-      <title> Fundacja Nowa Idea | Racjonalni Idealisci </title>
+      <title> Projekt Mowa, pasja brzmienia i mowienia </title>
       <meta property="og:url"                content="Projekt Mowa, pasja brzmienia i mowienia" />
       <meta property="og:type"               content="website" />
       <meta property="og:title"              content="Projekt Mowa, pasja brzmienia i mowienia" />
@@ -74,7 +75,7 @@ export default class IndexPage extends React.Component {
       <meta name="twitter:card" content="summary_large_image" />
 
 </Helmet>
-      
+<Topbar />
 
       <section className="hero myhero">
       
@@ -85,7 +86,7 @@ export default class IndexPage extends React.Component {
               <div className="catchphrase">Pasja brzmienia i mówienia</div>
             </div>
     </div>
-    <section className="section">
+    <section>
         <div className="container">
           <Navbar />
           </div>
@@ -94,36 +95,7 @@ export default class IndexPage extends React.Component {
       
       </section>
       
-      <section className="section">
-        <div className="container">
-
-                 
-
-        <div className="columns">
-           <div className="column">
-          <div className="content">
-                     <h1 className="has-text-weight-bold is-size-2">Nasze Projekty</h1>
-          </div>
-          </div>
-          </div>
-          
-          
-          <div className="columns">
-           
-          <Slider
-          
-        fadeOutAnimation={true}
-        mouseDragEnabled={true}
-        playButtonEnabled={false}
-        responsive={responsive}
-        dotsDisabled={true}
-        infinite={true}
-        onSlideChange={this.onSlideChange} >
-
-          {Slides}
-            </Slider>
-       </div></div>
-        </section>
+      
 
       
       <section className="section">
@@ -132,13 +104,14 @@ export default class IndexPage extends React.Component {
            <div className="column">
 
              {posts
-            .filter(post => post.node.frontmatter.templateKey === 'cele-page')
+            .filter(post => post.node.frontmatter.templateKey === 'omnie-page')
             .map(({ node: post}) => (
               <div
                 className="content mycontent"
                 key={post.id}
               >
                 <p>
+                <img src={post.frontmatter.thumbnail} alt={post.frontmatter.description} />
                   <Link className="has-text-primary" to={post.fields.slug}>
                     {post.frontmatter.title}
                   </Link>
@@ -166,6 +139,7 @@ export default class IndexPage extends React.Component {
    className="content mycontent"
    key={post.id}
  >
+
    <p>
      <Link className="has-text-primary" to={post.fields.slug}>
        {post.frontmatter.title}
@@ -193,6 +167,38 @@ export default class IndexPage extends React.Component {
              </div></div>
              </div>
       </section>
+
+      <section className="section">
+        <div className="container">
+
+                 
+
+        <div className="columns">
+           <div className="column">
+          <div className="content">
+                     <h1 className="has-text-weight-bold is-size-2">Blog</h1>
+          </div>
+          </div>
+          </div>
+          
+          
+          <div className="columns">
+           
+          <Slider
+          
+        fadeOutAnimation={true}
+        mouseDragEnabled={true}
+        playButtonEnabled={false}
+        responsive={responsive}
+        dotsDisabled={true}
+        infinite={true}
+        onSlideChange={this.onSlideChange} >
+
+          {Slides}
+            </Slider>
+       </div></div>
+        </section>
+
       </div>
     )
   }

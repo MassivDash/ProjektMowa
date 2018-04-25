@@ -6,10 +6,20 @@
 $spaceout-blue: #de460a
 $spaceout-invert: #fff
 $spaceout-prime: #de460a
-$spaceout-border: rgba(70, 87, 152, 0.3)
+$spaceout-border: $spaceout-invert
 $primary: $spaceout-blue
 $primary-invert: $spaceout-invert
+$text-color: #4e4a4a
 
+
+
+a.navbar-item:hover, a.navbar-item.is-active, a.navbar-link:hover, a.navbar-link.is-active
+  color: $spaceout-prime !important
+  
+.flex 
+  display: flex
+  justify-content: space-between
+  
 
 .logoicon
   overflow: visible
@@ -24,20 +34,21 @@ body
  background: url('../img/wall.png')
  background-repeat: repeat
 
+.myhero 
+    background: white
+    border-bottom: 1px solid $spaceout-prime
+
+
 .logo 
   width: 12%
   margin-left: -7em
 
-.navbar > .container .navbar-menu, .container > .navbar .navbar-menu 
-	margin-right: -1rem
-	border-bottom: 1px solid lightgray
-	border-top: 1px solid lightgray
+
 
 
 @media (min-width:986px)
   .container.has-text-centered 
-    border: 1px solid whitesmoke
-    padding: 2em 4em
+    padding: 2em 3em
 
   .alice-carousel__prev-btn-item
     margin-left: -30px
@@ -83,8 +94,7 @@ body
 .margin-top-0
   margin-top: 0 !important
 
-.myhero
-   padding: 2em
+
    
   
 
@@ -102,7 +112,7 @@ body
 
   .mycontent
     padding: 2em 4em
-    border: 1px solid $spaceout-border
+    border: 5px solid $spaceout-border
 
   .biglogo 
     margin: auto
