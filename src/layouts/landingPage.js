@@ -8,7 +8,7 @@ import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-   
+    
     <div>{children()}</div>
     <Footer />
   </div>

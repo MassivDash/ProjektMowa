@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
+import Navbar from '../components/Navbar/Navbar'
 
 export const OfertaPageTemplate = ({ 
   title, 
@@ -21,6 +22,7 @@ export const OfertaPageTemplate = ({
     <div>
       {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
+    <Navbar />
   <section 
   className="hero is-info is-small " style={{
     background: "url(" + thumbnail + ")",

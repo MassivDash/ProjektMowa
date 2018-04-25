@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
+import Navbar from '../components/Navbar/Navbar'
 
 export const ReferencjePageTemplate = ({ title, content, contentComponent, slug, postNode, thumbnail, description, helmet }) => {
   const PageContent = contentComponent || Content
@@ -13,6 +14,7 @@ export const ReferencjePageTemplate = ({ title, content, contentComponent, slug,
     <div>
       {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
+    <Navbar />
     <section 
   className="hero is-info is-small " style={{
     background: "url(" + thumbnail + ")",
@@ -53,6 +55,7 @@ ReferencjePageTemplate.propTypes = {
   contentComponent: PropTypes.func,
   slug: PropTypes.string,
   excerpt: PropTypes.string
+  
 }
 
 const ReferencjePage = ({ data }) => {

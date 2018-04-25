@@ -6,6 +6,7 @@ import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
 import config from "../../data/SiteConfig";
 import SEO from '../components/SEO/seo';
+import Navbar from '../components/Navbar/Navbar'
 
 export const BlogPostTemplate = ({
   content,
@@ -26,6 +27,7 @@ export const BlogPostTemplate = ({
     <div>
     {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
+    <Navbar />
     <section 
   className="hero is-info is-medium " style={{
     background: "url(" + thumbnail + ")",

@@ -27,7 +27,7 @@ class Navbar extends Component {
     }
 
   return(
-  <nav className='navbar is-fixed-top' aria-label='main navigation'>
+  <nav className='navbar' aria-label='main navigation'>
     <div className="container">
     
       <div className="navbar-brand">
@@ -42,9 +42,7 @@ class Navbar extends Component {
       <div className={['navbar-start', trans].join(" ")}>
       
        
-      <Link className="navbar-item" to="/"  onClick={this.closeNav.bind(this)}>
-          Strona Głowna
-        </Link>
+     
       <Link className="navbar-item" to="/blog"  onClick={this.closeNav.bind(this)}>
           Blog
         </Link>

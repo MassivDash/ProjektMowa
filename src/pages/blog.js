@@ -22,7 +22,7 @@ export default class BlogPage extends React.Component {
       <div className="columns">
            <div className="column"> 
             <div className="mytitle">
-            Nasze Projekty
+            Blog
               </div>
           </div>
   </div>

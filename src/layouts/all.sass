@@ -3,8 +3,9 @@
 
 
 // Config vars
-$spaceout-blue: #363636
+$spaceout-blue: #de460a
 $spaceout-invert: #fff
+$spaceout-prime: #de460a
 $spaceout-border: rgba(70, 87, 152, 0.3)
 $primary: $spaceout-blue
 $primary-invert: $spaceout-invert
@@ -18,6 +19,20 @@ $primary-invert: $spaceout-invert
 .alice-carousel__prev-btn-item:hover, 
 .alice-carousel__next-btn-item:hover, 
   border: 0
+
+body
+ background: url('../img/wall.png')
+ background-repeat: repeat
+
+.logo 
+  width: 12%
+  margin-left: -7em
+
+.navbar > .container .navbar-menu, .container > .navbar .navbar-menu 
+	margin-right: -1rem
+	border-bottom: 1px solid lightgray
+	border-top: 1px solid lightgray
+
 
 @media (min-width:986px)
   .container.has-text-centered 
@@ -69,16 +84,14 @@ $primary-invert: $spaceout-invert
   margin-top: 0 !important
 
 .myhero
+   padding: 2em
    
-   background: url('../img/background.jpg')
-   background-size: cover
-   background-color: #0188b5
-   border: 5px solid white
+  
 
 .mytitle
   padding-top: 2em 
   font-size: 5em
-  color: whitesmoke
+  color: $spaceout-prime
 
 
   
@@ -95,21 +108,21 @@ $primary-invert: $spaceout-invert
     margin: auto
     display: flex
     flex-direction: column
-    align-items: start
+    align-items: center
     font-family: 'Roboto', sans-serif
     text-align: left
 
     .idea
-      font-size: 6.4em 
-      color: whitesmoke
+      font-size: 2.5em 
+      color: #4e4a4a
       font-weight: bold
 
     
       
 
     .catchphrase 
-      font-size: 2em
-      color: white
+      font-size: 1.29em
+      color: $spaceout-prime
 
     .fund 
       font-size: 1.4em

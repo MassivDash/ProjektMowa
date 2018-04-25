@@ -5,6 +5,7 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
+import Navbar from '../components/Navbar/Navbar'
 
 
 export const KontaktPageTemplate = ({ 
@@ -22,7 +23,7 @@ export const KontaktPageTemplate = ({
   return (
     <div>
       {helmet}
-      
+      <Navbar />
     <SEO postPath={slug} postNode={postNode} postSEO />
     <section 
   className="hero is-info is-small " style={{

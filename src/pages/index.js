@@ -5,6 +5,9 @@ import Link from 'gatsby-link'
 import Slider from "react-alice-carousel"
 import config from "../../data/SiteConfig"
 import Slide from '../components/Slide/Slide'
+import Navbar from '../components/NavbarMainPage/Navbar'
+import logo from '../img/logo2.png'
+
 
 export default class IndexPage extends React.Component {
   state = {
@@ -58,34 +61,39 @@ export default class IndexPage extends React.Component {
       <div>
       <Helmet>
       <title> Fundacja Nowa Idea | Racjonalni Idealisci </title>
-      <meta property="og:url"                content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta property="og:url"                content="Projekt Mowa, pasja brzmienia i mowienia" />
       <meta property="og:type"               content="website" />
-      <meta property="og:title"              content="Fundacja Idea Nowa, racjonalni idealisci" />
-      <meta property="og:description"        content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta property="og:title"              content="Projekt Mowa, pasja brzmienia i mowienia" />
+      <meta property="og:description"        content="Projekt Mowa, pasja brzmienia i mowienia" />
       <meta property="og:image"              content={config.siteLogo} />
 
-      <meta name="twitter:title" content="Fundacja Idea Nowa, racjonalni idealisci" />
-      <meta name="twitter:description" content="Fundacja Idea Nowa, racjonalni idealisci" />
-      <meta property="og:description"  content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta name="twitter:title" content="Projekt Mowa, pasja brzmienia i mowienia" />
+      <meta name="twitter:description" content="Projekt Mowa, pasja brzmienia i mowienia" />
+      <meta property="og:description"  content="Projekt Mowa, pasja brzmienia i mowienia" />
       <meta name="twitter:image" content={config.siteUrl} />
       <meta name="twitter:card" content="summary_large_image" />
 
 </Helmet>
       
 
-      <section className="hero is-fullheight myhero">
-      <div className="hero-body">
+      <section className="hero myhero">
+      
     <div className="container has-text-centered">
     <div className="biglogo">
-              <div className="fund">Fundacja:</div>
-              <div className="idea">NOWA<br></br>IDEA</div>
-              <div className="catchphrase">Idealni Racjonaliści</div>
+              <img src={logo} alt="Projekt Mowa" className="logo" />
+               <div className="idea">Projekt Mowa</div>
+              <div className="catchphrase">Pasja brzmienia i mówienia</div>
             </div>
     </div>
-  </div> 
+    <section className="section">
+        <div className="container">
+          <Navbar />
+          </div>
+          </section>
            
       
       </section>
+      
       <section className="section">
         <div className="container">
 
