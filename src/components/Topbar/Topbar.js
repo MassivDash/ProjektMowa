@@ -4,6 +4,7 @@ import twitter from '../../img/t.svg'
 import './Topbar.scss'
 import tel from '../../img/tel.svg'
 import email from '../../img/email.svg'
+import instagram from '../../img/instagram.svg'
 
 
 const Topbar = () => (  
@@ -34,6 +35,10 @@ const Topbar = () => (
     
     <figure className="image is-24x24">
     <img src={twitter} alt="Projekt Mowa Twitter" />
+    </figure>
+
+    <figure className="image is-24x24">
+    <img src={instagram} alt="Projekt Mowa Instagram" />
     </figure>
       
        </div>

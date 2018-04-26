@@ -13,17 +13,10 @@ import Topbar from '../components/Topbar/Topbar'
 export default class IndexPage extends React.Component {
   state = {
     currentIndex:0,
-    items: [1,2,3,4,5]
+    
   };
 
-  slideTo = (i) => this.setState({ currentIndex: i });
-  
-      onSlideChanged = (e) => this.setState({ currentIndex: e.item });
-  
-      slideNext = () => this.setState({ currentIndex: this.state.currentIndex + 1 });
-  
-      slidePrev = () => this.setState({ currentIndex: this.state.currentIndex - 1 });
-  
+
   render() {
 
 
@@ -35,10 +28,10 @@ export default class IndexPage extends React.Component {
         items: 1
       },
       600: {
-        items: 2
+        items: 1
       },
       1024: {
-        items: 3
+        items: 2
       }
     };    
     const Slides = posts.filter(post => post.node.frontmatter.templateKey === 'blog-post')
@@ -101,7 +94,8 @@ export default class IndexPage extends React.Component {
       <section className="section">
       <div className="container">
       <div className="columns">
-           <div className="column">
+           <div className="column is-one-third">
+             <div className="omnie_holder">
 
              {posts
             .filter(post => post.node.frontmatter.templateKey === 'omnie-page')
@@ -109,28 +103,27 @@ export default class IndexPage extends React.Component {
               <div
                 className="content mycontent"
                 key={post.id}
-              >
-                <p>
-                <img src={post.frontmatter.thumbnail} alt={post.frontmatter.description} />
-                  <Link className="has-text-primary" to={post.fields.slug}>
+              ><Link className="omnie_title" to={post.fields.slug}>
                     {post.frontmatter.title}
                   </Link>
+                <p>
+                <img src={post.frontmatter.thumbnail} alt={post.frontmatter.description} />
+                  
                   
                 </p>
                 <p>
                   {post.excerpt}
                   <br />
                   <br />
+                  </p>
                   <Link className="button is-small" to={post.fields.slug}>
                     Czytaj Więcej →
                   </Link>
-                </p>
               </div>
             ))}
+              </div>
 
-            </div>
-
-            <div className="column">
+              <div className="oferta">
 
 {posts
 .filter(post => post.node.frontmatter.templateKey === 'oferta-page')
@@ -159,6 +152,26 @@ export default class IndexPage extends React.Component {
 
 </div>
             </div>
+            
+
+            <div className="column">
+              <Slider
+           
+         fadeOutAnimation={true}
+         mouseDragEnabled={true}
+         playButtonEnabled={false}
+         responsive={responsive}
+         dotsDisabled={true}
+         infinite={true}
+          >
+ 
+           {Slides}
+             </Slider>
+        </div>
+
+      </div>
+          
+            
 
 
       <div className="columns">
@@ -182,21 +195,7 @@ export default class IndexPage extends React.Component {
           </div>
           
           
-          <div className="columns">
-           
-          <Slider
-          
-        fadeOutAnimation={true}
-        mouseDragEnabled={true}
-        playButtonEnabled={false}
-        responsive={responsive}
-        dotsDisabled={true}
-        infinite={true}
-        onSlideChange={this.onSlideChange} >
-
-          {Slides}
-            </Slider>
-       </div></div>
+          </div>
         </section>
 
       </div>
