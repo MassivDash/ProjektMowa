@@ -31,7 +31,7 @@ export default class IndexPage extends React.Component {
         items: 1
       },
       1024: {
-        items: 2
+        items: 1
       }
     };    
     const Slides = posts.filter(post => post.node.frontmatter.templateKey === 'blog-post')
@@ -154,10 +154,9 @@ export default class IndexPage extends React.Component {
             </div>
             
 
-            <div className="column">
+            <div className="column overflow">
               <Slider
-           
-         fadeOutAnimation={true}
+              fadeOutAnimation={true}
          mouseDragEnabled={true}
          playButtonEnabled={false}
          responsive={responsive}

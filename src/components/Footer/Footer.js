@@ -20,9 +20,8 @@ const Footer = () => (
           </figure>
         </Link>
 
-         <p>NOWA IDEA<br />
-         ul. Jesionowa 11/7<br />
-         80-261 Gdańsk </p>
+         <p>Projekt<br />
+         </p>
 
         </div>
         </div>
