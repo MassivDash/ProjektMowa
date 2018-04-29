@@ -20,6 +20,14 @@ module.exports = {
         name: 'images',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Shrikhand`
+        ]
+      }
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
