@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo from '../../img/logosmall.png'
-import mail from '../../img/sent-mail.svg'
-import fb from '../../img/fb.svg'
-import twitter from '../../img/twitter.svg'
+import logo from '../../img/logo2.png'
+import fb from '../../img/facebook.svg'
+import twitter from '../../img/t.svg'
+import mail from '../../img/email.svg'
+import instagram from '../../img/instagram.svg'
+
 import './Footer.sass'
 
 const Footer = () => (
@@ -21,7 +23,9 @@ const Footer = () => (
         </Link>
 
          <p>Projekt<br />
+         Mowa 
          </p>
+         
 
         </div>
         </div>
@@ -30,20 +34,34 @@ const Footer = () => (
         
 
        
-        <p><a href="tel:583418894"><b>tel:</b> 583 418 894 </a> <br />
-        <a href="tel:501761361"><b>kom:</b> 501 761 361</a><br />  
-        <a href="mailto:fundacja@nowaidea.org.pl"><b>e-mail:</b> fundacja@nowaidea.org.pl</a></p>
+        <p><a href="tel:664654014">664 654 014</a> <br />
+           <a href="mailto:info@projektmowa.pl"><b>e-mail:</b> info@projektmowa.pl</a></p>
          </div> 
       </div>
       <div className="column">
           <div className="flexbox">
-        
-
-        
-        
-        <a href="mailto:fundacja@nowaidea.org.pl" className="navbar-item" >
+          <a href="https://faceboook.com/projektmowa" className="navbar-item" >    
           <figure className="image is-24x24">
-            <img src={mail} alt="Fundacja Nowa Idea"  />
+    <img src={fb} alt="Projket Mowa Facebook" />
+    </figure>
+    </a>
+    <a href="https://twiter.com//projektmowa" className="navbar-item" >
+    <figure className="image is-24x24">
+    <img src={twitter} alt="Projekt Mowa Twitter" />
+    </figure>
+    </a>
+
+    <a href="https://instagram.com/projektmowa" className="navbar-item" >
+    <figure className="image is-24x24">
+    <img src={instagram} alt="Projekt Mowa Instagram" />
+    </figure>
+    </a>
+        
+        <a href="mailto:info@projektmowa.pl" className="navbar-item" >
+          
+          
+          <figure className="image is-24x24">
+            <img src={mail} alt="Projekt Mowa"  />
           </figure>
         </a>
         
@@ -58,14 +76,17 @@ const Footer = () => (
           <Link  to="/">
             Strona Głowna
           </Link>
-        <Link  to="/projekty">
-            Projekty
+        <Link  to="/blog">
+            Blog
           </Link>
-          <Link to="/ofundacji">
-            O fundacji
+          <Link to="/oferta">
+            Oferta
           </Link>
-          <Link  to="/cele">
-            Cele
+          <Link  to="/omnie">
+            O mnie
+          </Link>
+          <Link  to="/referencje">
+            Referencje
           </Link>
           <Link  to="/kontakt">
             Kontakt
