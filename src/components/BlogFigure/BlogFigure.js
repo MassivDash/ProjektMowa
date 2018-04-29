@@ -10,18 +10,21 @@ const BlogFigure = (props) => (
                     <div className="column flex">
                         <p>
                   <Link to={props.slug}>
-                  <h5>{props.title}</h5>
+                  <div className="blogfigure_title">{props.title}</div>
                   </Link>
+                  
                   <small>{props.date}</small>
                 </p>
+
                 <p>
                   {props.excerpt}
                   <br />
                   <br />
+                  </p>
                   <Link className="button is-small" to={props.slug}>
                     Czytaj Więcej
                   </Link>
-                </p>
+                
               </div>
               </div>
               </div>

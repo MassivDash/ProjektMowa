@@ -145,13 +145,15 @@ export default class IndexPage extends React.Component {
                   
                   
                 </p>
+                <h5><b>Marta Pysłko</b></h5>
+                <h6><b>Logopeda</b></h6>
                 <p>
-                  {post.excerpt}
+                  {post.frontmatter.description}
                   <br />
                   <br />
                   </p>
                   <Link className="button is-small" to={post.fields.slug}>
-                    Czytaj Więcej →
+                    Czytaj Więcej
                   </Link>
               </div>
             ))}
@@ -174,11 +176,11 @@ export default class IndexPage extends React.Component {
      
    
    <p>
-     {post.excerpt}
+     {post.frontmatter.description}
      <br />
      <br />
      <Link className="button is-small" to={post.fields.slug}>
-       Czytaj Więcej →
+       Czytaj Więcej
      </Link>
    </p>
  </div>
@@ -189,9 +191,7 @@ export default class IndexPage extends React.Component {
             
 
             <div className="column">
-              <div class="myblogtitle">
-                <h4>Najnowesze Wpisy</h4> 
-                </div>
+              
 
            {BlogFiguers}
              </div>
@@ -206,22 +206,7 @@ export default class IndexPage extends React.Component {
              </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-
-                 
-
-        <div className="columns">
-           <div className="column">
-          <div className="content">
-                     <h1 className="has-text-weight-bold is-size-2">Blog</h1>
-          </div>
-          </div>
-          </div>
-          
-          
-          </div>
-        </section>
+   
 
       </div>
     )

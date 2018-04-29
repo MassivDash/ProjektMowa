@@ -1,16 +1,31 @@
 $spaceout-prime: #de460a;
-
+$text-color: #4f4f4f;
 
 .blogfigure {
     margin:30px 0;
-    padding: 30px 0;
+    padding: 15px 0;
+    width: 80%;
+    margin: auto;
     
+    .blogfigure_title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        margin: 20px auto;
+        border-bottom: 1px solid $spaceout-prime;
+        color: $text-color;
+
+    }
 
     .column {
         background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        padding: 2.5em 0;
     }
 
     h5 {
@@ -19,7 +34,7 @@ $spaceout-prime: #de460a;
     }
 
     p {
-        text-align: center;
+        text-align: left;
         margin: auto
     }
 
@@ -38,5 +53,11 @@ $spaceout-prime: #de460a;
         background: $spaceout-prime;
         color: white;
         padding: 15px;
+    }
+    
+    small {
+        margin: auto;
+        margin-top: -20px;
+        text-align: center;
     }
 }
