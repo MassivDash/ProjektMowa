@@ -42,7 +42,7 @@ export default class IndexPage extends React.Component {
         thumbnail={post.frontmatter.thumbnail}
         title={post.frontmatter.title} 
         date={post.frontmatter.date}
-        excerpt= {post.excerpt}
+        excerpt={post.frontmatter.description}
         slug={post.fields.slug}
         description={post.frontmatter.description}   
       /></div>

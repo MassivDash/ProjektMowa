@@ -1,37 +1,54 @@
-
+.myslide
+    display: flex
+    align-content: center
+    justify-content: center
     
 
 
 .slider_description 
    	color: #4f4f44
     padding: 10px 0
-    border-top: 1px solid white
-    margin: 30px 30px
-    min-height: 13vw
-    background: #f5f5f5eb
-    position: absolute
-    bottom: 0
+    display: flex
+    flex-direction: column
+    justify-content: center
+    
+    
+    
 
 .slide 
-    min-height: 500px
     color: white
+    margin: auto
+    width: 50%
+    height: 40%
+    background: #f5f5f5eb
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-content: center
+    align-items: center
+    outline: 1px solid whitesmoke
+    outline-offset: 10px
     
     p:first-of-type
         padding: 0 20px
     p 
         padding: 20px
+
+        small 
+            color: black
+            text-align: center
+            margin: auto
     
     a 
         padding: 20px
 
 .slider_title
-    padding: 1em 1em
+    padding: 0.5em 1em
+    margin-bottom: 0.5em
     font-size: 1.5em
     color: #4f4f4f
     border-bottom: 1px solid #de460a 
     display: block
-    width: 100%
-    margin: 1em
     font-family: 'Playfair Display', serif
     text-align: center
     
@@ -39,17 +56,23 @@
 @media (min-width:1024px)
     .myslide
         min-height: 500px
+        background-size: cover
+        background-position: center
         
         .button 
-            position: absolute
-            bottom: 30px
+            font-family: 'Playfair Display', serif
+            background: #de460a
+            color: white
+            width: 40%
+            margin: auto
 
         img 
-            position: absolute
+            
             width: 100%
             height: 100%
             z-index: -1  
 
 @media (max-width: 1024px)
     .myslide
-        height: 100%  
+        height: 100%
+        min-height: 600px  

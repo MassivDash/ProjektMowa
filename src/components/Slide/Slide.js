@@ -5,10 +5,9 @@ import './Slide.sass'
 
 const Slide = (props) => (
 <div key={props.myKey}
-className="myslide" >
+className="myslide" style={{backgroundImage: 'url(' + props.thumbnail + ')'}} >
   <figure className="slide">
-    <img src={props.thumbnail} alt={props.excerpt} />
-    <Link className="slider_title" to={props.slug}>
+   <Link className="slider_title" to={props.slug}>
       {props.title}
   </Link>
   
@@ -20,7 +19,7 @@ className="myslide" >
   <br />
   <br />
   <Link className="button is-big" to={props.slug}>
-    Czytaj Więcej →
+    Czytaj Więcej
   </Link>
 </p>
   
