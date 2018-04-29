@@ -24,7 +24,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Shrikhand`
+          `Playfair Display`
         ]
       }
     },

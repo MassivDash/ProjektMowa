@@ -88,7 +88,25 @@ export default class IndexPage extends React.Component {
       
       </section>
       
-      
+      <section>
+        <div className="container">
+          <div className="column">
+        <div className="column overflow">
+              <Slider
+              fadeOutAnimation={true}
+         mouseDragEnabled={true}
+         playButtonEnabled={false}
+         responsive={responsive}
+         dotsDisabled={true}
+         infinite={true}
+          >
+ 
+           {Slides}
+             </Slider>
+        </div>
+          </div>
+          </div>
+        </section>
 
       
       <section className="section">
@@ -133,12 +151,12 @@ export default class IndexPage extends React.Component {
    key={post.id}
  >
 
-   <p>
-     <Link className="has-text-primary" to={post.fields.slug}>
+   
+     <Link className="omnie_title" to={post.fields.slug}>
        {post.frontmatter.title}
      </Link>
      
-   </p>
+   
    <p>
      {post.excerpt}
      <br />
@@ -154,19 +172,7 @@ export default class IndexPage extends React.Component {
             </div>
             
 
-            <div className="column overflow">
-              <Slider
-              fadeOutAnimation={true}
-         mouseDragEnabled={true}
-         playButtonEnabled={false}
-         responsive={responsive}
-         dotsDisabled={true}
-         infinite={true}
-          >
- 
-           {Slides}
-             </Slider>
-        </div>
+            
 
       </div>
           
