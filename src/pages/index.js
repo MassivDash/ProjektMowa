@@ -6,6 +6,7 @@ import Slider from "react-alice-carousel"
 import config from "../../data/SiteConfig"
 import Slide from '../components/Slide/Slide'
 import Navbar from '../components/NavbarMainPage/Navbar'
+import BlogFigure from '../components/BlogFigure/BlogFigure'
 import logo from '../img/logo2.png'
 import Topbar from '../components/Topbar/Topbar'
 
@@ -33,7 +34,8 @@ export default class IndexPage extends React.Component {
       1024: {
         items: 1
       }
-    };    
+    };
+
     const Slides = posts.filter(post => post.node.frontmatter.templateKey === 'blog-post')
     .map(({ node: post, i }) => (
       <div key={i + 1} ><Slide
@@ -43,6 +45,21 @@ export default class IndexPage extends React.Component {
         title={post.frontmatter.title} 
         date={post.frontmatter.date}
         excerpt={post.frontmatter.description}
+        slug={post.fields.slug}
+        description={post.frontmatter.description}   
+      /></div>
+      )  
+      )
+
+      const BlogFiguers = posts.filter(post => post.node.frontmatter.templateKey === 'blog-post')
+    .map(({ node: post, i }) => (
+      <div key={post.id} ><BlogFigure
+        key={i}
+        myKey={post.fields.slug}
+        thumbnail={post.frontmatter.thumbnail}
+        title={post.frontmatter.title} 
+        date={post.frontmatter.date}
+        excerpt={post.excerpt}
         slug={post.fields.slug}
         description={post.frontmatter.description}   
       /></div>
@@ -90,8 +107,7 @@ export default class IndexPage extends React.Component {
       
       <section>
         <div className="container">
-          <div className="column">
-        <div className="column overflow">
+          <div className="column overflow">
               <Slider
               fadeOutAnimation={true}
          mouseDragEnabled={true}
@@ -104,7 +120,7 @@ export default class IndexPage extends React.Component {
            {Slides}
              </Slider>
         </div>
-          </div>
+          
           </div>
         </section>
 
@@ -172,7 +188,13 @@ export default class IndexPage extends React.Component {
             </div>
             
 
-            
+            <div className="column">
+              <div class="myblogtitle">
+                <h4>Najnowesze Wpisy</h4> 
+                </div>
+
+           {BlogFiguers}
+             </div>
 
       </div>
           
@@ -180,9 +202,7 @@ export default class IndexPage extends React.Component {
 
 
       <div className="columns">
-           <div className="column">
-
-             </div></div>
+           </div>
              </div>
       </section>
 
