@@ -1,4 +1,12 @@
 @media (max-width: 986px)
+
+  button.button.navbar-burger 
+    position: fixed
+    top: 10px
+    right: 13px
+    z-index: 2000000
+
+
   .navbar
     background: transparent !important
     .container 
@@ -29,8 +37,21 @@
   .navbar-start.is-close
     transform: translateX(100%)
 
-  .navbar-start.is-active,
+  .navbar-start.is-active
     transform: translateX(0)
+
+.navbar-start.is-active 
+  background: whitesmoke
+  z-index: 100000
+  display: flex
+    /* justify-content: center; */
+    /* align-content: center; */
+  align-items: center
+  position: fixed
+  height: 100%
+  width: 100%
+  top: 0
+
 
 @media (min-width:986px)
   .navbar

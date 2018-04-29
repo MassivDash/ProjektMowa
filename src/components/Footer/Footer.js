@@ -17,14 +17,12 @@ const Footer = () => (
         <div className="column">
           <div className="logofoot">
         <Link to="/" >
-          <figure className="image is-64x64">
+          <figure className="image is-128x128">
             <img src={logo} alt="Fundacja Idea Nowa"  />
           </figure>
         </Link>
 
-         <p>Projekt<br />
-         Mowa 
-         </p>
+         
          
 
         </div>

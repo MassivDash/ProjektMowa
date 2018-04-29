@@ -43,4 +43,8 @@ $spaceout-prime: #f6f6f6;
 }
 
 
- 
+@media (max-width:1024px) {
+    .topbar {
+        display: none;
+    }
+} 

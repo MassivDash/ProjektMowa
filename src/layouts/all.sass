@@ -24,15 +24,7 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-link:hover, a.navbar-link
 .logoicon
   overflow: visible
 
-.alice-carousel__next-btn-item, .alice-carousel__prev-btn-item 
-    display: flex
-    height: 50px
-    width: 50px
-    justify-content: center
-    align-content: center
-    background: whitesmoke
-    border-radius: 0
-    margin: 0 20px
+
     
   
 
@@ -55,16 +47,16 @@ body
 
 .oferta 
   margin: 30px 0
-
+  
   .button 
     width: 100%
 
 
+.marta
+  font-family: 'Playfair Display', serif
 
 
-.logo 
-  width: 12%
-  margin-left: -7em
+
 
 .button
   background: trasnsparent !important
@@ -87,6 +79,16 @@ body
 @media (min-width:986px)
   .container.has-text-centered 
     padding: 2em 3em
+
+  .alice-carousel__next-btn-item, .alice-carousel__prev-btn-item 
+    display: flex
+    height: 50px
+    width: 50px
+    justify-content: center
+    align-content: center
+    background: whitesmoke
+    border-radius: 0
+    margin: 0 20px
 
  
 .alice-carousel 
@@ -140,6 +142,12 @@ body
   
 
 @media (min-width: 986px)
+  
+
+  .logo 
+    width: 12%
+    margin-left: -7em
+
   section.hero.is-info.is-small 
     border: 5px solid white
 
@@ -154,7 +162,6 @@ body
     display: flex
     flex-direction: column
     align-items: center
-    font-family: 'Roboto', sans-serif
     text-align: left
 
     .idea
@@ -168,7 +175,7 @@ body
     .catchphrase 
       font-size: 1.29em
       color: $spaceout-prime
-
+      font-family: 'Roboto', sans-serif
     .fund 
       font-size: 1.4em
       color: whitesmoke
@@ -176,22 +183,39 @@ body
 
   
 @media (max-width: 986px) 
+  .alice-carousel__next-btn-item, .alice-carousel__prev-btn-item 
+    display: flex
+    height: 50px
+    width: 50px
+    justify-content: center
+    align-content: center
+    background: transparent
+    border-radius: 0
+    margin: -50px 0 0 -5px
+    border: 1px solid white
+    color: white
+
+  .logo 
+    width: 50%
+    margin-left: -7em
+    padding-top: 15vw
+
 
   .biglogo 
     
     
-    font-family: 'Roboto', sans-serif
+    font-family: 'Playfair Despair', serif
 
     .idea
-      font-size: 3em 
-      color: whitesmoke
+      font-size: 2.5em 
+      color: $text-color
       font-weight: bold
       
 
     .catchphrase 
-      font-size: 1em
-      color: white
-
+      font-size: 1.25em
+      color: $spaceout-prime
+      font-family: 'Roboto', sans-serif
     .fund 
       font-size: 0.8em
       color: whitesmoke

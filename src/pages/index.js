@@ -144,10 +144,10 @@ export default class IndexPage extends React.Component {
                 <img src={post.frontmatter.thumbnail} alt={post.frontmatter.description} />
                   
                   
-                </p>
-                <h5><b>Marta Pysłko</b></h5>
-                <h6><b>Logopeda</b></h6>
-                <p>
+                </p><div className="marta">
+                <h5>Marta Pysłko</h5>
+                <h6>Logopeda</h6>
+                </div><p>
                   {post.frontmatter.description}
                   <br />
                   <br />
