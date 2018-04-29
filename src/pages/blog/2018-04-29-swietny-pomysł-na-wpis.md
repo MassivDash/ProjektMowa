@@ -13,7 +13,7 @@ tags:
 ---
 # Warto Zaczac od naglowka (przycisk H1)
 
-## potem mamy h2 na mniejsze tytuly sekcji 
+## potem mamy h2 na mniejsze tytuly sekcji
 
 **Zgrubienie tekstu **
 
@@ -33,11 +33,7 @@ numerowana lista
 1. jeden
 2. dwa
 
-
-
 aby dodac zdjecie wcisnij plus > image (warto wpisywac alt tekst)
-
-
 
 tagi, odzielamy przecinkiem np: 
 
