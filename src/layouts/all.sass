@@ -62,14 +62,6 @@ body
   background: trasnsparent !important
   border: 0 !important
 
-.omnie_title
-  text-align: center
-  text-transform: uppercase
-  font-size: 20px
-  font-family: 'Playfair Display', serif
-  margin: 20px auto
-  border-bottom: 1px solid $spaceout-prime
-  color: $text-color
 
 .overflow 
   overflow: hidden
@@ -77,6 +69,15 @@ body
   margin-top: 30px
 
 @media (min-width:986px)
+  .omnie_title
+    text-align: center
+    text-transform: uppercase
+    font-size: 20px
+    font-family: 'Playfair Display', serif
+    margin: 20px auto
+    border-bottom: 1px solid $spaceout-prime
+    color: $text-color
+
   .container.has-text-centered 
     padding: 2em 3em
 
@@ -183,6 +184,21 @@ body
 
   
 @media (max-width: 986px) 
+  .mycontent
+    padding: 1.5em 1.2em
+    border: 5px solid $spaceout-border
+    display: flex
+    flex-direction: column
+
+  .omnie_title
+    text-align: center
+    text-transform: uppercase
+    font-size: 20px
+    font-family: 'Playfair Display', serif
+    margin: 50px auto
+    border-bottom: 1px solid $spaceout-prime
+    color: $text-color
+
   .alice-carousel__next-btn-item, .alice-carousel__prev-btn-item 
     display: flex
     height: 50px
