@@ -8,13 +8,13 @@ const BlogFigure = (props) => (
                 <div className="columns">
                     
                     <div className="column flex">
-                        <p>
+                        <div>
                   <Link to={props.slug}>
                   <div className="blogfigure_title">{props.title}</div>
                   </Link>
                   
                   <small>{props.date}</small>
-                </p>
+                </div>
 
                 <p>
                   {props.excerpt}

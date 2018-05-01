@@ -69,6 +69,40 @@ body
   margin-top: 30px
 
 @media (min-width:986px)
+  .blogsection
+    background-size: 1920px auto
+    background-position: center
+
+  .titlecolumn
+    background: whitesmoke
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    p 
+      color: $text-color
+      text-align: center
+      font-size: 1.6em
+
+    .blogdate 
+      font-size: 1.2em
+      color: $text-color
+      text-align: center
+      padding: 1em 0 2em 0
+
+    .mytitle
+      text-align: center
+      padding-bottom: 0.4em 
+      font-size: 5em
+      color: $text-color
+      border-bottom: 1px solid $spaceout-prime
+      font-family: 'Playfair Display', serif
+
+     
+
+
+
   .omnie_title
     text-align: center
     text-transform: uppercase
@@ -134,10 +168,7 @@ body
    
   
 
-.mytitle
-  padding-top: 2em 
-  font-size: 5em
-  color: $spaceout-prime
+
 
 
   
@@ -149,8 +180,9 @@ body
     width: 12%
     margin-left: -7em
 
-  section.hero.is-info.is-small 
+  section.hero.is-info
     border: 5px solid white
+    background-color: $spaceout-prime
 
   .mycontent
     padding: 2em 4em

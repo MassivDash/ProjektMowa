@@ -7,6 +7,7 @@ import Content, { HTMLContent } from '../components/Content'
 import config from "../../data/SiteConfig";
 import SEO from '../components/SEO/seo';
 import Navbar from '../components/Navbar/Navbar'
+import OtherPost from '../components/OtherPosts/OtherPosts'
 
 export const BlogPostTemplate = ({
   content,
@@ -19,29 +20,46 @@ export const BlogPostTemplate = ({
   slug,
   date,
   postNode,
-  postPath
+  postPath,
+  OtherPosts
 }) => {
   const PostContent = contentComponent || Content
+
+  const Pagnation = OtherPosts.edges.filter(edges => edges.node.frontmatter.templateKey === 'blog-post')
+    .map(({ node: post, i }) => (
+      <div className="column" key={post.fields.slug} >
+      <OtherPost
+        key={i}
+        myKey={post.fields.slug}
+        thumbnail={post.frontmatter.thumbnail}
+        title={post.frontmatter.title} 
+        date={post.frontmatter.date}
+        slug={post.fields.slug}
+         
+      />
+      </div>
+      )  
+      )
 
   return (
     <div>
     {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
+    
     <Navbar />
     <section 
-  className="hero is-info is-medium " style={{
-    background: "url(" + thumbnail + ")",
-    backgroundSize: "cover",
-    backgroundPosition: "bottom"
-      }}>
+  className="hero is-info is-large blogsection" style={{
+    backgroundImage: "url(" + thumbnail + ")",
+          }}>
   <div className="hero-body">
     <div className="container">
       <div className="columns">
-           <div className="column"> 
+           <div className="column titlecolumn"> 
             <div className="mytitle">
               {title}
               
               </div>
+              <div className="blogdate">{date}</div>
               <p>{description}</p>
           </div>
   </div>
@@ -61,6 +79,14 @@ export const BlogPostTemplate = ({
         </div>
       </div>
     </section>
+    <section>
+          <div className="columns">
+          {Pagnation}
+          </div>
+
+          
+      </section>
+    
     </div>
   )
 }
@@ -75,8 +101,9 @@ BlogPostTemplate.propTypes = {
 }
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
-
+  const { markdownRemark: post } = data;
+  const { allMarkdownRemark: edges } = data
+  console.log(edges);
   return (
     <BlogPostTemplate
       content={post.html}
@@ -90,6 +117,7 @@ const BlogPost = ({ data }) => {
       date={post.frontmatter.date}
       postNode={post}
       postPath={post.fields.slug}
+      OtherPosts={edges}
     />
   )
 }
@@ -116,6 +144,37 @@ export const pageQuery = graphql`
         thumbnail
         description
         tags
+      }
+    }
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+      
+        
+        node {
+          
+          excerpt(pruneLength: 400)
+          id
+          children {
+            id
+            parent {
+              id
+            }
+            
+            
+          }
+          fields {
+            slug
+          }
+          frontmatter {
+            
+            title
+            thumbnail
+            description
+            templateKey
+            date(formatString: "MMMM DD, YYYY", locale: "pl")
+            
+          }
+        }
       }
     }
   }
