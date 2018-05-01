@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
+import SEO from '../components/SEO/seo';
+import config from "../../data/SiteConfig";
+import Navbar from '../components/Navbar/Navbar'
 import thumbnail from '../img/background.jpg'
 
 
@@ -11,6 +14,7 @@ export default class BlogPage extends React.Component {
     
     return (
       <div>
+        <Navbar />
       <section 
         className="hero is-info is-small " style={{
         background: "url(" + thumbnail + ")",

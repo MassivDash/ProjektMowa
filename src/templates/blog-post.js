@@ -25,7 +25,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
 
-  const Pagnation = OtherPosts.edges.filter(edges => edges.node.frontmatter.templateKey === 'blog-post')
+  const Pagnation = OtherPosts.edges.filter(edges => edges.node.frontmatter.templateKey === 'blog-post' && edges.node.fields.slug !== slug )
     .map(({ node: post, i }) => (
       <div className="column" key={post.fields.slug} >
       <OtherPost
@@ -80,11 +80,12 @@ export const BlogPostTemplate = ({
       </div>
     </section>
     <section>
+      <div className="container mypagination">
           <div className="columns">
           {Pagnation}
           </div>
 
-          
+          </div>
       </section>
     
     </div>
@@ -146,7 +147,7 @@ export const pageQuery = graphql`
         tags
       }
     }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 16) {
       edges {
       
         
