@@ -78,7 +78,7 @@ const OtherPosts = {
         date: entry.getIn(['data', 'date'])
       }
     }}
-    OtherPosts={OtherPosts}
+    OtherPosts={{OtherPosts}}
     
     />;
 };

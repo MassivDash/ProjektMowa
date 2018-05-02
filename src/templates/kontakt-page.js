@@ -6,6 +6,7 @@ import Helmet from 'react-helmet'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
 import Navbar from '../components/Navbar/Navbar'
+import ContactForm from '../components/ContactForm/ContactGotm'
 
 
 export const KontaktPageTemplate = ({ 
@@ -51,6 +52,9 @@ export const KontaktPageTemplate = ({
         </div>
       </div>
     </section>
+    
+    <ContactForm />
+
     </div>
   )
 }
