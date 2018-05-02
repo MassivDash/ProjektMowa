@@ -70,8 +70,16 @@ const OtherPosts = {
     slug={slug}
     helmet={helmet}
     date={date}
-    postNode={postNode}
+    postNode={{
+      frontmatter: {
+        description: entry.getIn(['data', description]),
+        title: entry.getIn(['data, title']),
+        thumbnail: entry.getIn(['data', 'thumbnail']),
+        date: entry.getIn(['data', 'date'])
+      }
+    }}
     OtherPosts={OtherPosts}
+    
     />;
 };
 
