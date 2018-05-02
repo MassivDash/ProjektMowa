@@ -33,7 +33,7 @@ class Navbar extends Component {
     
       <div className="navbar-brand">
       <Link to="/" className="navbar-item">
-          <figure className="image">
+          <figure className="image nomobile">
             <img src={logo} alt="Projekt Mowa" style={{ width: '88px' }} />
           </figure>
           </Link>
