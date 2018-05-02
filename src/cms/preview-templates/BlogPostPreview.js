@@ -3,9 +3,6 @@ import PropTypes from 'prop-types'
 import { BlogPostTemplate } from '../../templates/blog-post'
 
 
-const BlogPostPreview = ({ entry, widgetFor, getAsset }) => {
-const data = entry.get('data').toJS();
-const { content, description, tags, title, thumbnail, slug, helmet, date, postNode } = data;
 const OtherPosts = {
   edges: [
     {node: {
@@ -60,6 +57,12 @@ const OtherPosts = {
 
   ]
 };
+
+
+const BlogPostPreview = ({ entry, widgetFor, getAsset, OtherPosts }) => {
+const data = entry.get('data').toJS();
+const { content, description, tags, title, thumbnail, slug, helmet, date, postNode } = data;
+
 
   return <BlogPostTemplate
     content={content}
