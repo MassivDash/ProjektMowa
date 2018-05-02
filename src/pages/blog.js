@@ -16,11 +16,7 @@ export default class BlogPage extends React.Component {
       <div>
         <Navbar />
       <section 
-        className="hero is-info is-small " style={{
-        background: "url(" + thumbnail + ")",
-        backgroundSize: "cover",
-        backgroundPosition: "bottom"
-      }}>
+        className="hero is-info is-medium" >
   <div className="hero-body">
     <div className="container">
       <div className="columns">

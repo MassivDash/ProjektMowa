@@ -23,12 +23,8 @@ export const OfertaPageTemplate = ({
       {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
     <Navbar />
-  <section 
-  className="hero is-info is-small " style={{
-    background: "url(" + thumbnail + ")",
-    backgroundSize: "cover",
-    backgroundPosition: "bottom"
-      }}>
+    <section 
+  className="hero is-info is-medium " >
   <div className="hero-body">
     <div className="container">
       <div className="columns">

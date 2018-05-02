@@ -26,11 +26,7 @@ export const KontaktPageTemplate = ({
       <Navbar />
     <SEO postPath={slug} postNode={postNode} postSEO />
     <section 
-  className="hero is-info is-small " style={{
-    background: "url(" + thumbnail + ")",
-    backgroundSize: "cover",
-    backgroundPosition: "bottom"
-      }}>
+  className="hero is-info is-medium " >
   <div className="hero-body">
     <div className="container">
       <div className="columns">

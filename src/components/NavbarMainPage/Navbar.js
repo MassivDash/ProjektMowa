@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import logo from '../../img/logosmall.png'
 import fb from '../../img/fb.svg'
 import twitter from '../../img/twitter.svg'
 import './Navbar.sass'

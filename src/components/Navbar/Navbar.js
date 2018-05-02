@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import logo from '../../img/logosmall.png'
-import fb from '../../img/fb.svg'
-import twitter from '../../img/twitter.svg'
+import fb from '../../img/facebook.svg'
+import twitter from '../../img/t.svg'
+import instagram from '../../img/instagram.svg'
 import './Navbar.sass'
+import logo from '../../img/logo2.png'
 
 class Navbar extends Component {
  
@@ -31,6 +32,11 @@ class Navbar extends Component {
     <div className="container">
     
       <div className="navbar-brand">
+      <Link to="/" className="navbar-item">
+          <figure className="image">
+            <img src={logo} alt="Projekt Mowa" style={{ width: '88px' }} />
+          </figure>
+          </Link>
       <button className={['button navbar-burger', css].join(" ")} data-target='navMenu' onClick={this.toggleNav.bind(this)}>
           <span />
           <span />
@@ -63,6 +69,24 @@ class Navbar extends Component {
       </div>
       
        </div>
+       <div className="navbar-end">
+       <a href="https://faceboook.com/projektmowa" className="navbar-item" >    
+          <figure className="image is-24x24">
+    <img src={fb} alt="Projket Mowa Facebook" />
+    </figure>
+    </a>
+    <a href="https://twiter.com//projektmowa" className="navbar-item" >
+    <figure className="image is-24x24">
+    <img src={twitter} alt="Projekt Mowa Twitter" />
+    </figure>
+    </a>
+
+    <a href="https://instagram.com/projektmowa" className="navbar-item" >
+    <figure className="image is-24x24">
+    <img src={instagram} alt="Projekt Mowa Instagram" />
+    </figure>
+    </a>
+         </div>
       </div>
     
   </nav>

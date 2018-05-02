@@ -9,16 +9,9 @@ description: >-
   upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu
   codziennym.
 ---
-**IDEA NOWA**\
-**ul. Jesionowa 11/7,**\
-**80-261 Gdańsk**
+**Marta Pyslko**
+Logopeda
 
-**tel: 58 341 88 94**\
-**kom 501 761 361**\
-**e-mail: fundacja@nowaidea.org.pl**
+664 654 014  
 
-Tomasz Luterek\
-tel: 0-501 761 361
-
-Małgorzata Koprowska\
-tel: 0-510 144 533
+e-mail: info@projektmowa.pl 
