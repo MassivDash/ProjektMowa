@@ -78,7 +78,7 @@ const { content, description, tags, title, thumbnail, slug, helmet, date, postNo
         date: entry.getIn(['data', 'date'])
       }
     }}
-    OtherPosts= {entry.getAsset(edges)}
+    OtherPosts= {entry.getIn(edges)}
     
     />;
 };
