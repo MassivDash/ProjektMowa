@@ -60,7 +60,7 @@ const edges = {
 
   ]
 };
-console.log(OtherPostss)
+console.log(edges)
   return <BlogPostTemplate
     content={content}
     description={description}
