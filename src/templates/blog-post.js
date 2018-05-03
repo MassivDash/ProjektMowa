@@ -120,7 +120,7 @@ BlogPostTemplate.propTypes = {
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
   const { allMarkdownRemark: edges } = data
-  console.log(edges);
+  
   return (
     <BlogPostTemplate
       content={post.html}
