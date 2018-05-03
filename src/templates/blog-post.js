@@ -24,7 +24,21 @@ export const BlogPostTemplate = ({
   OtherPosts
 }) => {
   const PostContent = contentComponent || Content
-  console.log(OtherPosts)
+ 
+  if (OtherPosts === undefined ) {
+
+  const Pagnation = (
+
+  
+    <div className="column">
+      tutaj sa linki do innych postow
+    </div>
+
+  )}
+
+  else {
+
+  
   const Pagnation = OtherPosts.edges.filter(edges => edges.node.frontmatter.templateKey === 'blog-post' && edges.node.fields.slug !== slug )
     .map(({ node: post, i }) => (
       <div className="column" key={post.fields.slug} >
@@ -40,7 +54,7 @@ export const BlogPostTemplate = ({
       </div>
       )  
       )
-
+    }
   return (
     <div>
     {helmet}
