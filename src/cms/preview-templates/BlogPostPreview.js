@@ -5,8 +5,7 @@ import { BlogPostTemplate } from '../../templates/blog-post'
 
 const BlogPostPreview = ({ entry, widgetFor, getAsset }) => {
 const data = entry.get('data').toJS();
-const { content, description, tags, title, thumbnail, slug, helmet, date, postNode } = data;
-const edges = {
+const dummy = {
   edges: [
     {node: {
       children: [],
@@ -60,7 +59,8 @@ const edges = {
 
   ]
 };
-console.log(edges)
+const { content, description, tags, title, thumbnail, slug, helmet, date, postNode } = data;
+  const edges = { ... {dummy}}
   return <BlogPostTemplate
     content={content}
     description={description}
