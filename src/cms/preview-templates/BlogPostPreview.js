@@ -24,7 +24,7 @@ const { content, description, tags, title, thumbnail, slug, helmet, date, postNo
         date: entry.getIn(['data', 'date'])
       }
     }}
-    OtherPosts={OtherPosts}
+    
     
     />;
 };
