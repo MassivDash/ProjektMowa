@@ -24,7 +24,7 @@ export const BlogPostTemplate = ({
   OtherPosts
 }) => {
   const PostContent = contentComponent || Content
-
+  console.log(OtherPosts)
   const Pagnation = OtherPosts.edges.filter(edges => edges.node.frontmatter.templateKey === 'blog-post' && edges.node.fields.slug !== slug )
     .map(({ node: post, i }) => (
       <div className="column" key={post.fields.slug} >
