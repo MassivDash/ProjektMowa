@@ -11,6 +11,9 @@ $primary: $spaceout-blue
 $primary-invert: $spaceout-invert
 $text-color: #4e4a4a
 
+.hero.is-info 
+	background-color: #fff !important
+	color: $text-color !important
 
 
 a.navbar-item:hover, a.navbar-item.is-active, a.navbar-link:hover, a.navbar-link.is-active
@@ -225,7 +228,16 @@ body
 
   
 @media (max-width: 986px) 
+  .blogsection
+    background-size: 1440px auto
+    background-position: center
    
+  .mytitle 
+    font-family: 'Playfair despair'
+    font-size: 3em
+    color: $text-color
+    padding: 4em 0
+    text-align: center
 
   .mycontent
     padding: 1.5em 1.2em
@@ -241,6 +253,7 @@ body
     margin: 50px auto
     border-bottom: 1px solid $spaceout-prime
     color: $text-color
+    
 
   .alice-carousel__next-btn-item, .alice-carousel__prev-btn-item 
     display: flex
@@ -253,6 +266,11 @@ body
     margin: -50px 0 0 -5px
     border: 1px solid white
     color: white
+
+  .titlecolumn 
+    background: #f5f5f5b3
+    outline: 1px solid white
+    outline-offset: 5px
 
   .logo 
     width: 50%
