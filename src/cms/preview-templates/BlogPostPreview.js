@@ -59,7 +59,7 @@ const edges = {
 
   ]
 };
-const { content, description, tags, title, thumbnail, slug, helmet, date, postNode, edges } = data;
+const { content, description, tags, title, thumbnail, slug, helmet, date, postNode } = data;
   
   return <BlogPostTemplate
     content={content}
