@@ -72,13 +72,13 @@ const { content, description, tags, title, thumbnail, slug, helmet, date, postNo
     date={date}
     postNode={{
       frontmatter: {
-        description: entry.getIn(['data', description]),
+        description: entry.getIn(['data', 'descriptio']),
         title: entry.getIn(['data, title']),
         thumbnail: entry.getIn(['data', 'thumbnail']),
         date: entry.getIn(['data', 'date'])
       }
     }}
-    OtherPosts={edges}
+    OtherPosts= {entry.getAsset(edges)}
     
     />;
 };
