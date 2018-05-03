@@ -5,7 +5,7 @@ import { BlogPostTemplate } from '../../templates/blog-post'
 
 const BlogPostPreview = ({ entry, widgetFor, getAsset }) => {
 const data = entry.get('data').toJS();
-const dummy = {
+const edges = {
   edges: [
     {node: {
       children: [],
@@ -59,8 +59,8 @@ const dummy = {
 
   ]
 };
-const { content, description, tags, title, thumbnail, slug, helmet, date, postNode } = data;
-  const edges = { ... {dummy}}
+const { content, description, tags, title, thumbnail, slug, helmet, date, postNode, edges } = data;
+  
   return <BlogPostTemplate
     content={content}
     description={description}
@@ -78,7 +78,7 @@ const { content, description, tags, title, thumbnail, slug, helmet, date, postNo
         date: entry.getIn(['data', 'date'])
       }
     }}
-    OtherPosts= {entry.getIn(edges)}
+    OtherPosts= {entry.getIn(['data', 'edges'])}
     
     />;
 };
