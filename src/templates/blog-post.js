@@ -25,9 +25,11 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
  
+  let Pagnation = {};
+
   if (OtherPosts === undefined ) {
 
-  const Pagnation = (
+  Pagnation = (
 
   
     <div className="column">
@@ -39,7 +41,7 @@ export const BlogPostTemplate = ({
   else {
 
   
-  const Pagnation = OtherPosts.edges.filter(edges => edges.node.frontmatter.templateKey === 'blog-post' && edges.node.fields.slug !== slug )
+  Pagnation = OtherPosts.edges.filter(edges => edges.node.frontmatter.templateKey === 'blog-post' && edges.node.fields.slug !== slug )
     .map(({ node: post, i }) => (
       <div className="column" key={post.fields.slug} >
       <OtherPost
