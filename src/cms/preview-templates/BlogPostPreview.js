@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { BlogPostTemplate } from '../../templates/cmsblog-post'
+import { CMSBlogPostTemplate } from '../../templates/cmsblog-post'
 
 
 const BlogPostPreview = ({ entry, widgetFor }) => (
 
 
   
- <BlogPostTemplate
+ <CMSBlogPostTemplate
     
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
@@ -31,7 +31,7 @@ const BlogPostPreview = ({ entry, widgetFor }) => (
   />
 )
 
-BlogPostPreview.propTypes = {
+CMSBlogPostPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
