@@ -38,4 +38,4 @@ CMSBlogPostPreview.propTypes = {
   widgetFor: PropTypes.func,
 }
 
-export default BlogPostPreview
+export default CMSBlogPostPreview
