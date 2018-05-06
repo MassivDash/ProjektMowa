@@ -77,12 +77,9 @@ export const BlogPostTemplate = ({
 }
 
 BlogPostTemplate.propTypes = {
-  content: PropTypes.string.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  tags: PropTypes.array,
-  helmet: PropTypes.instanceOf(Helmet),
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+  }),
 }
 
 const BlogPost = ({ data }) => {
