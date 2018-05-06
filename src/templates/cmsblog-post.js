@@ -67,7 +67,7 @@ export const BlogPostTemplate = ({
     <section>
       <div className="container mypagination">
           <div className="columns">
-          {Pagnation}
+          
           </div>
 
           </div>
