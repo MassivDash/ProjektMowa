@@ -13,7 +13,8 @@ const BlogPostPreview = ({ entry, widgetFor }) => (
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
     postPath={entry.getIn(['data', 'slug'])}
-    slug={entry.getIn(['fields', 'slug'])}
+    slug={entry.getIn(['data', 'slug'])}
+    tags={entry.getIn(['data', 'tags'])}
     description={entry.getIn(['data', 'description'])}
     helmet={entry.getIn(['data', 'title'])}
     date={entry.getIn(['data', 'date'])}
