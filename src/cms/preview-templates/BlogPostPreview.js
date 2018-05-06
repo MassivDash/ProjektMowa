@@ -3,31 +3,31 @@ import PropTypes from 'prop-types'
 import { BlogPostTemplate } from '../../templates/cmsblog-post'
 
 
-const BlogPostPreview = ({ entry, widgetFor, getAsset }) => {
-const data = entry.get('data').toJS();
-const { content, description, tags, title, thumbnail, slug, helmet, date, postNode } = data;
+const BlogPostPreview = ({ entry, widgetFor }) => {
+
 
   
   return <BlogPostTemplate
-    content={content}
-    description={description}
-    tags={tags}
-    title={title}
-    thumbnail={thumbnail}
-    slug={slug}
-    helmet={helmet}
-    date={date}
+    
+    title={entry.getIn(['data', 'title'])}
+    content={widgetFor('body')}
+    thumbnail={entry.getIn(['data', 'thumbnail' ])}
+    postPath={entry.getIn(['data', 'slug'])}
+    slug={entry.getIn(['fields', 'slug'])}
+    description={entry.getIn(['data', 'description'])}
+    helmet={entry.getIn(['data', 'title'])}
+    date={entry.getIn(['data', 'date'])}
     postNode={{
       frontmatter: {
         description: entry.getIn(['data', 'description']),
-        title: entry.getIn(['data, title']),
-        thumbnail: entry.getIn(['data', 'thumbnail']),
-        date: entry.getIn(['data', 'date'])
+        tags: entry.getIn(['data', 'tags']),
+        title: entry.getIn(['data', 'title']),
+        thumbnail: entry.getIn(['data', 'thumbnail' ])  
       }
-    }}
-    
-    
-    />;
+      
+
+      }}
+  />;
 };
 
 BlogPostPreview.propTypes = {

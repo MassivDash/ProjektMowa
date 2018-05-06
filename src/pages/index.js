@@ -93,7 +93,7 @@ export default class IndexPage extends React.Component {
     <div className="biglogo">
               <img src={logo} alt="Projekt Mowa" className="logo" />
                <div className="idea">Projekt Mowa</div>
-              <div className="catchphrase">Pasja brzmienia i mówienia</div>
+              <div className="catchphrase">pasja brzmienia i mówienia</div>
             </div>
     </div>
     <section>
