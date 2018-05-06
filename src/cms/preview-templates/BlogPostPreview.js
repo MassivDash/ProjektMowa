@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import { BlogPostTemplate } from '../../templates/cmsblog-post'
 
 
-const BlogPostPreview = ({ entry, widgetFor }) => {
+const BlogPostPreview = ({ entry, widgetFor }) => (
 
 
   
-  return <BlogPostTemplate
+ <BlogPostTemplate
     
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
@@ -27,8 +27,8 @@ const BlogPostPreview = ({ entry, widgetFor }) => {
       
 
       }}
-  />;
-};
+  />
+);
 
 BlogPostPreview.propTypes = {
   entry: PropTypes.shape({

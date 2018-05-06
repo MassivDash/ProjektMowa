@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
@@ -88,7 +87,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { allMarkdownRemark: edges } = data
+  
   
   return (
     <BlogPostTemplate
@@ -130,37 +129,6 @@ export const pageQuery = graphql`
         thumbnail
         description
         tags
-      }
-    }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 16) {
-      edges {
-      
-        
-        node {
-          
-          excerpt(pruneLength: 400)
-          id
-          children {
-            id
-            parent {
-              id
-            }
-            
-            
-          }
-          fields {
-            slug
-          }
-          frontmatter {
-            
-            title
-            thumbnail
-            description
-            templateKey
-            date(formatString: "MMMM DD, YYYY", locale: "pl")
-            
-          }
-        }
       }
     }
   }
