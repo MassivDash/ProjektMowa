@@ -7,13 +7,12 @@ const CMSBlogPostPreview = ({ entry, widgetFor }) => (
   
  <CMSBlogPostTemplate
     
-    title={entry.getIn(['data', 'title'])}
+    title={entry.getIn(['data','title'])}
     content={widgetFor('body')}
-    thumbnail={entry.getIn(['data', 'thumbnail' ])}
-    slug={entry.getIn(['data', 'slug'])}
-    tags={entry.getIn(['data', 'tags'])}
-    description={entry.getIn(['data', 'description'])}
-    date={entry.getIn(['data', 'date'])}
+    thumbnail={entry.getIn(['data','thumbnail' ])}
+    slug={entry.getIn(['data','slug'])}
+    description={entry.getIn(['data','description'])}
+    
    
   />
 )
