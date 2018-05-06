@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { CMSBlogPostTemplate } from '../../templates/cmsblog-post'
 
 
-const BlogPostPreview = ({ entry, widgetFor }) => (
+const CMSBlogPostPreview = ({ entry, widgetFor }) => (
 
 
   
