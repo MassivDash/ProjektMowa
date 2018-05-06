@@ -71,25 +71,25 @@ const Footer = () => (
     <div className="column">
   <div className="container">
           <div className="menu">
-          <Link  to="/">
+          <Link className="navbar-item" to="/">
             Strona Głowna
           </Link>
-        <Link  to="/blog">
+        <Link className="navbar-item" to="/blog">
             Blog
           </Link>
-          <Link to="/oferta">
+          <Link className="navbar-item" to="/oferta">
             Oferta
           </Link>
-          <Link  to="/omnie">
+          <Link className="navbar-item"  to="/omnie">
             O mnie
           </Link>
-          <Link  to="/referencje">
+          <Link className="navbar-item" to="/referencje">
             Referencje
           </Link>
           <Link className="navbar-item" to="/wspolpraca" >
-          Wspołpraca
+          Współpraca
         </Link>
-          <Link  to="/kontakt">
+          <Link className="navbar-item" to="/kontakt">
             Kontakt
           </Link>
           </div>

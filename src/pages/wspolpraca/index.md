@@ -1,9 +1,9 @@
 ---
 templateKey: wspolpraca-page
-title: Refrenencje
+title: Współpraca
 thumbnail: /img/background.jpg
 description: >-
-  wspolpraca
+  Współpraca
 ---
-Wsplpraca lala 
+Współpraca lala 
 
