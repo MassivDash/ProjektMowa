@@ -86,6 +86,9 @@ const Footer = () => (
           <Link  to="/referencje">
             Referencje
           </Link>
+          <Link className="navbar-item" to="/wspolpraca" >
+          Wspołpraca
+        </Link>
           <Link  to="/kontakt">
             Kontakt
           </Link>

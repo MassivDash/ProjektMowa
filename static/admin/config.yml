@@ -59,4 +59,13 @@ collections:
         - {labal: "Featured Image", name: "thumbnail", widget: "image"}
         - {label: "Description", name: "description", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/wspolpraca/index.md"
+        label: "Wspolpraca"
+        name: "wspolpraca"
+        fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "wspolpraca-page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {labal: "Featured Image", name: "thumbnail", widget: "image"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
           

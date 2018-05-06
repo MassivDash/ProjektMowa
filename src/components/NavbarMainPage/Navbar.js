@@ -54,6 +54,9 @@ class Navbar extends Component {
         <Link className="navbar-item" to="/referencje"  onClick={this.closeNav.bind(this)}>
           Referencje
         </Link>
+        <Link className="navbar-item" to="/wspolpraca"  onClick={this.closeNav.bind(this)}>
+          Wspołpraca
+        </Link>
         <Link className="navbar-item" to="/kontakt"  onClick={this.closeNav.bind(this)}>
           Kontakt
         </Link>
