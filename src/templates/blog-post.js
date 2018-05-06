@@ -25,7 +25,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
  
-  let Pagnation = {};
+  let Pagnation = [];
 
   if (OtherPosts === undefined ) {
 

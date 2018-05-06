@@ -5,7 +5,8 @@ import { BlogPostTemplate } from '../../templates/blog-post'
 
 const BlogPostPreview = ({ entry, widgetFor, getAsset }) => {
 const data = entry.get('data').toJS();
-const { content, description, tags, title, thumbnail, slug, helmet, date, postNode, OtherPosts } = data;
+const { content, description, tags, title, thumbnail, slug, helmet, date, postNode } = data;
+
   
   return <BlogPostTemplate
     content={content}
@@ -18,7 +19,7 @@ const { content, description, tags, title, thumbnail, slug, helmet, date, postNo
     date={date}
     postNode={{
       frontmatter: {
-        description: entry.getIn(['data', 'descriptio']),
+        description: entry.getIn(['data', 'description']),
         title: entry.getIn(['data, title']),
         thumbnail: entry.getIn(['data', 'thumbnail']),
         date: entry.getIn(['data', 'date'])
