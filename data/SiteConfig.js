@@ -3,7 +3,7 @@ module.exports = {
   siteTitle: "Projekt Mowa | logopedia ", // Site title.
   siteTitleAlt: "Projekt Mowa | logopedia ", // Alternative site title for SEO.
   siteLogo: "static/img/logosmall.png", // Logo used for SEO and manifest.
-  siteUrl: "https://projektmowa.pl", // Domain of your website without pathPrefix.
+  siteUrl: "https://projektmowa.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Projekt Mowa | logopedia", // Website description used for RSS feeds/meta description tag.
   postDefaultCategoryID: "Social", // Default category for posts.

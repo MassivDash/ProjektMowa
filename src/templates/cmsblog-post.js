@@ -3,23 +3,18 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
-import config from "../../data/SiteConfig";
-import SEO from '../components/SEO/seo';
 import Navbar from '../components/Navbar/Navbar'
 
 
-export const BlogPostTemplate = ({
+export const CMSBlogPostTemplate = ({
   content,
   contentComponent,
   description,
   tags,
   title,
-  helmet,
   thumbnail,
   slug,
   date,
-  postNode,
-  postPath,
   
 }) => {
   const PostContent = contentComponent || Content
@@ -27,8 +22,6 @@ export const BlogPostTemplate = ({
   
   return (
     <div>
-    {helmet}
-    <SEO postPath={slug} postNode={postNode} postSEO />
     
     <Navbar />
     <section 
@@ -76,41 +69,39 @@ export const BlogPostTemplate = ({
   )
 }
 
-BlogPostTemplate.propTypes = {
+CMSBlogPostTemplate.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-const BlogPost = ({ data }) => {
+const CMSBlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
   
   
   return (
-    <BlogPostTemplate
+    <CMSBlogPostTemplate
       content={post.html}
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
-      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
       slug={post.fields.slug}
       thumbnail={post.frontmatter.thumbnail}
       date={post.frontmatter.date}
-      postNode={post}
-      postPath={post.fields.slug}
+      
       
     />
   )
 }
 
-BlogPost.propTypes = {
+CMSBlogPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default CMSBlogPost
 
 export const pageQuery = graphql`
   query CMSBlogPostByID($id: String!) {
