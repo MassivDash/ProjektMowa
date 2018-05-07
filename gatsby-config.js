@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Fundacja Idea Nowa',
-    siteUrl: `https://ideanowa.org.pl`,
+    title: 'Projekt Mowa',
+    siteUrl: `https://projektmowa.pl`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -62,6 +62,19 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sitemap`
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "ProjektMowa",
+        short_name: "ProjektMowa",
+        start_url: "/",
+        background_color: "#fff",
+        theme_color: "#de460a",
+        display: "standalone",
+        icon: "static/img/favbig.png", // This path is relative to the root of the site.
+      },
+    },
+    'gatsby-plugin-offline'
   ],
 }
