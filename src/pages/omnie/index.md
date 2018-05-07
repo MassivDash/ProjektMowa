@@ -7,6 +7,10 @@ description: >-
   sobie nowe porcje wiedzy, w postaci szkoleń i kursów, by jak najlepiej pomóc
   małemu i dużemu pacjentowi.
 ---
+![](/img/omnie.jpg)
+
+
+
 **Moim wielkim zainteresowaniem cieszą się prymarne funkcje układu orofacjalnego. Lubię zaglądać ludziom do buzi, ale tylko za ich pozwoleniem. Z uwagą przyglądam się budowie i funkcjonowaniu układu żucia i stawom skroniowo-żuchwowym,dzięki czemu moi pacjenci w porę konsultowani są z ortodontami, fizjoterapeutami lub innymi specjalistami.**
 
 Z powodzeniem prowadzę zajęcia z dziećmi w różnym wieku z rozmaitymi zaburzeniami
@@ -23,8 +27,6 @@ prof. AT Stanisław Górka, prof. AT Ryszard Olesiński, dr Svetlana Butska, dr 
 Wasilewski, Maria Bończykowa, Bożena Targosz, Magdalena Kędzior, prof. Zbigniew
 Tarkowski, dr Ewa Jeżewska-Krasnodębska, dr Ewa Winnicka, Agnieszka Borowiec, dr
 Barbara Sambor i wielu innych…
-
-
 
 **Na co dzień prowadzę prywatną praktykę oraz współpracuję z Niepublicznym Ośrodkiem
 Terapeutycznym „Przystań Szkraba” w Warszawie.**
