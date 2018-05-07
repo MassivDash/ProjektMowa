@@ -72,7 +72,7 @@ export default class IndexPage extends React.Component {
       <div>
       <Helmet>
       <title> Projekt Mowa, pasja brzmienia i mowienia </title>
-      <meta property="og:url"                content="Projekt Mowa, pasja brzmienia i mowienia" />
+      <meta property="og:url"                content="https://projektmowa.pl" />
       <meta property="og:type"               content="website" />
       <meta property="og:title"              content="Projekt Mowa, pasja brzmienia i mowienia" />
       <meta property="og:description"        content="Projekt Mowa, pasja brzmienia i mowienia" />
