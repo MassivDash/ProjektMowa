@@ -76,14 +76,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-purify-css',
       options: {
         /* Defaults */
         styleId: 'gatsby-inlined-css',
         purifyOptions: {
-          info: true,
+          info: false,
           minify: true
         }
       }
