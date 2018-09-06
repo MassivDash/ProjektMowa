@@ -13,7 +13,7 @@ tags:
 ---
 # Warto Zaczac od naglowka (przycisk H1)
 
-## potem mamy h2 na mniejsze tytuly sekcji
+## potem mamy h2 na mniejsze tytuly sekcji (test update 6.09.2018)
 
 **Zgrubienie tekstu **
 
