@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Na dobry początek...
 date: 2018-09-07T22:13:23.320Z
 thumbnail: /img/kilarov-zaneit-622424-unsplash.jpg
-description: dowiedz się czym jest ProjektMowa
+description: ...dowiedz się czym jest ProjektMowa.
 tags:
   - mowa
   - komunikacja
@@ -13,15 +13,13 @@ tags:
   - logopeda
   - neurologopeda
 ---
-# Na dobry początek...
-
 Jeżeli teraz to czytasz, prawdopodobnie interesujesz się zagadnieniem mowy, komunikacji, emisji głosu, logopedii… A może szukasz logopedy dla siebie bądź swojego Dziecka? Jesteś studentem, rodzicem, dziennikarzem, lektorem, przedsiębiorcą… Niezależnie od tego co Cię tu sprowadziło, zapraszam Cię do mojego projektu! 
 
 ProjektMowa powstaje z pasji. Powstaje, bo nie jest to skończony produkt. To mój zawód, zainteresowanie, spora część życia. Jest w ciągłej przebudowie, by stawać się coraz lepszą swoją wersją i służyć innym.
 
-Zanim zdradzę, co będzie się tu działo, zacznę od tego czym jest MOWA. I nie mam na myśli najbardziej powszechnej i bardzo ogólnej definicji, według której mowa jest po prostu wykorzystaniem języka w procesie porozumiewania się.
+Zanim zdradzę, co będzie się tu działo, zacznę od tego czym jest MOWA. I nie mam na myśli najbardziej powszechnej i bardzo ogólnej definicji, według której jest to po prostu wykorzystanie języka w procesie porozumiewania się.
 
-Dla mnie jest czymś więcej. Moja wizja mowy wynika z podręcznikowej definicji, ale nabiera kształtów i kolorów poszczególnych ludzi, z którymi pracuję. Jest kilka zagadnień, które według mnie są ważne dla kształtowania się mowy:
+Dla mnie jest czymś więcej. Moja wizja mowy wynika z podręcznikowej definicji, ale nabiera kształtów i kolorów poszczególnych ludzi, z którymi pracuję. Jest kilka zagadnień, które według mnie są ważne dla jej kształtowania się:
 
 M – moje ciało jest całością i miofunkcjonalność
 
