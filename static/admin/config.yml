@@ -26,7 +26,7 @@ collections:
       - file: "src/pages/oferta/index.md"
         label: "Oferta"
         name: "oferta"
-        fields:
+        fields: 
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "oferta-page"}
         - {label: "Title", name: "title", widget: "string"}
         - {labal: "Featured Image", name: "thumbnail", widget: "image"}
