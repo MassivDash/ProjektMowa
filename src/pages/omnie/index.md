@@ -7,7 +7,7 @@ description: >-
   sobie nowe porcje wiedzy, w postaci szkoleń i kursów, by jak najlepiej pomóc
   małemu i dużemu pacjentowi.
 ---
-![](/img/omnie.jpg)
+![Projekt Mowa](/img/omnie.jpg)
 
 
 
