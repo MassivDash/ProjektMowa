@@ -1,12 +1,12 @@
 ---
 templateKey: omnie-page
 title: O mnie
-thumbnail: /img/omnie.jpg
+thumbnail: /img/roman-averin-173797-unsplash.jpg
 description: Dzień dobry!
 ---
-Nazywam się Marta Pyskło. Jestem neurologopedą, pedagogiem specjalnym, nauczycielem techniki mowy i emisji głosu. Swoje wykształcenie zdobywałam na warszawskich uczelniach: Akademii Pedagogiki Specjalnej, w Wyższej Szkole Psychologii Społecznej oraz na Uczelni Łazarskiego. Ponadto nadal dawkuję sobie nowe porcje wiedzy, w postaci szkoleń i kursów, by jak najlepiej pomóc małemu i dużemu człowiekowi. 
+![](/img/omnie.jpg)
 
-Mam to szczęście, że uczyłam się od najlepszych specjalistów. Wśród nich są m.in.: prof. AT Stanisław Górka, prof. AT Ryszard Olesiński, dr Svetlana Butska, dr Jacek Wasilewski, Maria Bończykowa, Bożena Targosz, Magdalena Kędzior, prof. Zbigniew Tarkowski, dr Ewa Jeżewska-Krasnodębska, dr Ewa Winnicka, Agnieszka Borowiec, dr Barbara Sambor i wielu innych…
+Nazywam się Marta Pyskło. Jestem neurologopedą, pedagogiem specjalnym, nauczycielem techniki mowy i emisji głosu. Swoje wykształcenie zdobywałam na warszawskich uczelniach: Akademii Pedagogiki Specjalnej, w Wyższej Szkole Psychologii Społecznej oraz na Uczelni Łazarskiego. Ponadto nadal dawkuję sobie nowe porcje wiedzy, w postaci szkoleń i kursów, by jak najlepiej pomóc małemu i dużemu człowiekowi.
 
 Na swoich zajęciach porzucam stolik na rzecz pracy z całym ciałem. Lubię łamać strerotypy. Nie jestem ortodoksem – w swojej pracy dążę do stanu optimum, w którym staram pogodzić się automatyzację zdrowych nawyków i poczucie komfortu pacjenta. 
 
@@ -18,6 +18,4 @@ Z powodzeniem prowadzę zajęcia z dziećmi w różnym wieku z rozmaitymi zaburz
 
 Prowadzę prywatną praktykę oraz współpracuję z Niepublicznym Ośrodkiem Terapeutycznym „Przystań Szkraba” w Warszawie. 
 
-Kiedy nie pracuję, to…pracuję. Staram się opanować trudną sztukę odpoczynku. Tworzę wokół siebie chaos i specjalizuję się w panowaniu nad nim. Bez dobrych ludzi czuję się jak ryba bez wody. Upieram się, że kiedyś się wyśpię i napiszę książkę. Czytam Tolkiena, kiedy mam czas – rysuję, a ostatnio gotuję, testując nowe przepisy. Nie mogłabym żyć bez muzyki – to moje uzależnienie. Żałuję, że nie mogę częściej podróżować, zwłaszcza w góry i do Włoch. Jestem miłośniczką dobrego kina i seriali Netflixa.
-
-## Projekt Mowa to moje dziecko, które puszczam w świat z przesłaniem, że logopedia nie musi być nudna i jest dla każdego! Chcę szerzyć świadomość, obalać mity i w przystępnej formie mówić o logopedii.
+Projekt Mowa to moje dziecko, które puszczam w świat z przesłaniem, że logopedia nie musi być nudna i jest dla każdego! Chcę szerzyć świadomość, obalać mity i w przystępnej formie mówić o logopedii.
