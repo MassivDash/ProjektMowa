@@ -1,7 +1,7 @@
 ---
 templateKey: omnie-page
 title: O mnie
-thumbnail: /img/roman-averin-173797-unsplash.jpg
+thumbnail: /img/omnie.jpg
 description: Dzień dobry!
 ---
 ![](/img/omnie.jpg)
