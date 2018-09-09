@@ -2,7 +2,7 @@
 templateKey: omnie-page
 title: O mnie
 thumbnail: /img/omnie.jpg
-description: Dzień dobry!
+description: Marta Pyskło
 ---
 ![](/img/omnie.jpg)
 
