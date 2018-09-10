@@ -145,7 +145,7 @@ export default class IndexPage extends React.Component {
                   
                   
                 </p><div className="marta">
-                <h5>Marta Pysłko</h5>
+                <h5>Marta Pyskło</h5>
                 <h6>Logopeda</h6>
                 </div><p>
                   {post.frontmatter.description}
