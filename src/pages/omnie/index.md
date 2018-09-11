@@ -2,7 +2,10 @@
 templateKey: omnie-page
 title: O mnie
 thumbnail: /img/omnie.jpg
-description: Dzień dobry!
+description: >-
+  Projekt Mowa to moje dziecko, które puszczam w świat z przesłaniem, że
+  logopedia nie musi być nudna i jest dla każdego! Chcę szerzyć świadomość,
+  obalać mity i w przystępnej formie mówić o logopedii.
 ---
 ![null](/img/omnie.jpg)
 
