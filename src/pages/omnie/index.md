@@ -13,7 +13,7 @@ Nazywam się Marta Pyskło. Jestem neurologopedą, pedagogiem specjalnym, nauczy
 
 Na swoich zajęciach porzucam stolik na rzecz pracy z całym ciałem. Lubię łamać strerotypy. Nie jestem ortodoksem – w swojej pracy dążę do stanu optimum, w którym staram pogodzić się automatyzację zdrowych nawyków i poczucie komfortu pacjenta. 
 
-Moim wielkim zaineresowaniem cieszą się prymarne funkcje układu orofacjalnego. Lubię zaglądać ludziom do buzi, ale tylko za ich pozwoleniem. Z uwagą przyglądam się budowie i funkcjonowaniu układu żucia i stawom skroniowo-żuchwowym. Świadomie nawiązuję współpracę z innymi specjalistami – psychologami, fizjoterapeutami, czy ortodontami. Dzięki temu, moi klienci otrzymują kompleksową pomoc na najwyższym poziomie. 
+Lubię zaglądać ludziom do buzi, ale tylko za ich pozwoleniem. Z uwagą przyglądam się budowie i funkcjonowaniu układu żucia i stawom skroniowo-żuchwowym. Świadomie nawiązuję współpracę z innymi specjalistami – psychologami, fizjoterapeutami, czy ortodontami. Dzięki temu, moi klienci otrzymują kompleksową pomoc na najwyższym poziomie. 
 
 Moją pasją jest emisja głosu i doskonalenie techniki mowy, które wykorzystywane są w różnych dziedzinach życia, głównie przez dorosłych.
 
