@@ -21,7 +21,7 @@ Zanim zdradzę, co będzie się tu działo, zacznę od tego czym jest MOWA. I ni
 
 Dla mnie jest czymś więcej. Moja wizja mowy wynika z podręcznikowej definicji, ale nabiera kształtów i kolorów poszczególnych ludzi, z którymi pracuję. Jest kilka zagadnień, które według mnie są ważne dla jej kształtowania się:
 
-M – moje ciało jest całością i miofunkcjonalność
+M – moje ciało jest całością
 
 O – otwarcie i emisja głosu
 
