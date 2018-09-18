@@ -31,7 +31,7 @@ A – artykulacja i dykcja
 
 W tym momencie to tylko suche hasła. Będę je przybliżać w kolejnych wpisach. Na samym początku chcę tylko zaznaczyć, że mowa nie istnieje bez człowieka. Tego małego i tego całkiem dużego. I w tym świetle będziemy tworzyć ten projekt. O człowieku i dla człowieka. W sposób przystępny mówić o logopedii.
 
-Chciałabym zarazić Cię moją pasją. Udowodnić, że logopedia nie musi być nudna, a na pewno nie tylko dla dzieci. Chcę szerzyć świadomość swojego ciała i zachęcać do wsłuchiwania się w nie. Chciałabym, by każdy dorosły zrozumiał, że nigdy nie jest za późno na zajęcie się swoim głosem lub dykcją, a wystąpienia publiczne nie są udziałem jedynie celebrytów lub prezydentów. Mam nadzieję, że dzięki Projektowi upadnie też mit logopedy siedzącego za biórkiem przed lustrem, którego głównym zadaniem jest wywołanie tego nieszczęsnego „errrr”…
+Chciałabym zarazić Cię moją pasją. Udowodnić, że logopedia nie musi być nudna, a na pewno nie tylko dla dzieci. Chcę szerzyć świadomość swojego ciała i zachęcać do wsłuchiwania się w nie. Chciałabym, by każdy dorosły zrozumiał, że nigdy nie jest za późno na zajęcie się swoim głosem lub dykcją, a wystąpienia publiczne nie są udziałem jedynie celebrytów lub prezydentów. Mam nadzieję, że dzięki Projektowi upadnie też mit logopedy siedzącego za biurkiem przed lustrem, którego głównym zadaniem jest wywołanie tego nieszczęsnego „errrr”…
 
 ## Projekt Mowa to pasja brzmienia i mówienia – rozwijajmy ją razem!
 
