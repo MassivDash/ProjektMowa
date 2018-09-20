@@ -16,16 +16,10 @@ description: oferta
 
 Zajęcia prowadzę nie tylko indywidualnie, ale także grupowo. Ich forma jest uzależniona od potrzeb klienta. Staram się, by wiedza była przekazywana w sposób atrakcyjny, dostosowany do oczekiwań osób ze mną współpracujących. Stawiam na praktykę okraszoną ciekawą teorią. 
 
-Zajmuję się terapią logopedyczną dzieci.
+**W terapii logopedycznej dzieci** zajmuję się:
 
-A to co ja mogę im zaoferować to mądrze prowadzona profilaktyka logopedyczna, ale także diagnoza i terapia:
-
-\- opóźnionego rozwoju mowy
-
-\-diagnoza i terapia wad wymowy
-
-\- funkcji układu artykulacyjnego przed, w trakcie i po terapii ortodontycznej.
-
-\-terapia zaburzeń mowy i komunikacji u dzieci z: autyzmem, Zespołem Aspergera, Zespołem Downa,
-
-\-konsultacje i porady logopedyczne (wraz z opiniami)
+* opóźnionym rozwojem mowy,
+* diagnozą i terapią wad wymowy,
+* funkcjami układu artykulacyjnego przed, w trakcie i po terapii ortodontycznej,
+* zaburzeniami mowy i komunikacji u dzieci z: autyzmem, Zespołem Aspergera, Zespołem Downa,
+* konsultacjami i poradami logopedycznymi (wraz z opiniami).
