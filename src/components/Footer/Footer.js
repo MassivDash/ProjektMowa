@@ -38,18 +38,18 @@ const Footer = () => (
       </div>
       <div className="column">
           <div className="flexbox">
-          <a href="https://faceboook.com/projektmowa" className="navbar-item" >    
+          <a href="https://www.facebook.com/projektmowa.neurologopeda/" className="navbar-item" >    
           <figure className="image is-24x24">
     <img src={fb} alt="Projket Mowa Facebook" />
     </figure>
     </a>
-    <a href="https://twiter.com//projektmowa" className="navbar-item" >
+    <a href="https://twitter.com/MowaPysk" className="navbar-item" >
     <figure className="image is-24x24">
     <img src={twitter} alt="Projekt Mowa Twitter" />
     </figure>
     </a>
 
-    <a href="https://instagram.com/projektmowa" className="navbar-item" >
+    <a href="https://www.instagram.com/pysklomarta/" className="navbar-item" >
     <figure className="image is-24x24">
     <img src={instagram} alt="Projekt Mowa Instagram" />
     </figure>
