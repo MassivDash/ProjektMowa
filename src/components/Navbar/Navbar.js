@@ -78,7 +78,7 @@ class Navbar extends Component {
     <img src={fb} alt="Projket Mowa Facebook" />
     </figure>
     </a>
-    <a href="https://twiter.com//projektmowa" className="navbar-item" >
+    <a href="https://twitter.com/MowaPysk" className="navbar-item" >
     <figure className="image is-24x24">
     <img src={twitter} alt="Projekt Mowa Twitter" />
     </figure>
