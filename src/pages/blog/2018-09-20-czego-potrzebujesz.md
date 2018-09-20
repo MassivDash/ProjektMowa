@@ -10,7 +10,6 @@ tags:
   - logopedia
   - komunikacja
   - rozwój mowy
-  - ''
 ---
 Zastanawiałeś się kiedyś co jest potrzebne byś mówił? Czasem traktujemy niektóre sprawy w sposób tak oczywisty, że nie zdajemy sobie sprawy jak skomplikowanym i genialnym mechanizmem jest nasze ciało. Ba, całe życie!
 
