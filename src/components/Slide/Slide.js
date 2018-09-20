@@ -1,5 +1,4 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
 import Link from 'gatsby-link'
 import './Slide.sass'
 
