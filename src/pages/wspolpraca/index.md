@@ -1,7 +1,7 @@
 ---
 templateKey: wspolpraca-page
 title: Współpraca
-thumbnail: /img/rawpixel-584292-unsplash.jpg
+thumbnail: /img/connect-20333_1920.jpg
 description: Współpraca
 ---
 Mam to wielkie szczęście, że mogę współpracować ze świetnymi specjalistami, a przy tym dobrymi ludźmi.
