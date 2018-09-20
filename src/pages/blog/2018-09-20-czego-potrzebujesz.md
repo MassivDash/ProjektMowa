@@ -15,13 +15,13 @@ Zastanawiałeś się kiedyś co jest potrzebne byś mówił? Czasem traktujemy n
 
 Próbowałeś mówić mając na uszach słuchawki z głośną muzyką? Wszyscy wtedy ze śmiechem Cię uciszają (albo bez śmiechu). Teraz będzie kontrowersyjnie – a kiedy byłeś pijany? No dobra, skoro nigdy nie byłeś, to na pewno widziałeś pijanego człowieka. Błoga wiotkość mięśni czyniła z jego mowy dość zabawne zjawisko. Ale na pewno miałeś kiedyś tak zajęte myśli różnymi sprawami, że zwróciłeś się do osoby obok siebie innym imieniem niż posiada. Na przykład do swojej nauczycielki w szkole powiedziałeś „babciu”? Ja taką wpadkę zaliczyłam.☺ I z całą pewnością miałeś kiedyś znieczulenie u dentysty! Ja bez niego nie siadam na fotel. Robienie min ze znieczuleniem - polecam spróbować.
 
-O czym ja piszę? Ano o niektórych fundamentach mowy. O tych rzeczach, bez których ona nie może się rozwinąć. Nie będziemy się we wszystkie mocno zagłębiać, opowiem o kilku z nich. Z całą pewnością jednak, chcę podkreślić, że do rozwoju mowy potrzebne są:
+O czym ja piszę? Ano o niektórych fundamentach mowy. O tych rzeczach, bez których ona nie może się rozwinąć. Nie będziemy się we wszystkie mocno zagłębiać, opowiem Wam o kilku z nich. Z całą pewnością jednak, chcę podkreślić, że do rozwoju mowy potrzebne są:
 
 \- prawidłowy słuch – byśmy mogli odbierać i nadawać; słyszeć siebie i innych;
 
 \- myśl, intencja komunikacyjna – dobrze wiedzieć, co chce się powiedzieć i czy w ogóle się chce oraz zauważa potrzebę mówienia i komunikowania się z innymi;
 
-\- umiejętności naśladowcze - bo się wielu nowych umiejętności najczęściej przez naśladowanie;
+\- umiejętności naśladowcze - bo się wielu nowych umiejętności uczymy się najczęściej przez naśladowanie;
 
 \- prawidłowa budowa i praca aparatu artykulacyjnego – inaczej brzmi człowiek z mocno wysuniętą żuchwą (przodozgryzem, przodożuchwiem), a inaczej kiedy wkłada język między zęby podczas mówienia;
 
