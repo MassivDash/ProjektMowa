@@ -4,7 +4,7 @@ title: Oferta
 thumbnail: /img/background.jpg
 description: oferta
 ---
-**Pracuję z młodzieżą i dorosłymi. **Przygotowuję do wystąpień od strony logopedycznej. W zależności od wyników diagnozy i potrzeb klienta, pracujemy nad:
+**Pracuję z młodzieżą i dorosłymi.** Przygotowuję do wystąpień od strony logopedycznej. W zależności od wyników diagnozy i potrzeb klienta, pracujemy nad:
 
 * poprawą wyrazistości wypowiedzi,
 * korekcją wad artykulacyjnych,
