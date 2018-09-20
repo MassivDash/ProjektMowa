@@ -11,7 +11,9 @@ tags:
   - komunikacja
   - rozwój mowy
 ---
-Zastanawiałeś się kiedyś co jest potrzebne byś mówił? Czasem traktujemy niektóre sprawy w sposób tak oczywisty, że nie zdajemy sobie sprawy jak skomplikowanym i genialnym mechanizmem jest nasze ciało. Ba, całe życie!
+Zastanawiałeś się kiedyś co jest potrzebne byś mówił? 
+
+Niektóre rzeczy traktujemy w sposób tak oczywisty, że nie zdajemy sobie sprawy jak skomplikowanym i genialnym mechanizmem jest nasze ciało. Ba, całe życie!
 
 Próbowałeś mówić mając na uszach słuchawki z głośną muzyką? Wszyscy wtedy ze śmiechem Cię uciszają (albo bez śmiechu). Teraz będzie kontrowersyjnie – a kiedy byłeś pijany? No dobra, skoro nigdy nie byłeś, to na pewno widziałeś pijanego człowieka. Błoga wiotkość mięśni czyniła z jego mowy dość zabawne zjawisko. Ale na pewno miałeś kiedyś tak zajęte myśli różnymi sprawami, że zwróciłeś się do osoby obok siebie innym imieniem niż posiada. Na przykład do swojej nauczycielki w szkole powiedziałeś „babciu”? Ja taką wpadkę zaliczyłam.☺ I z całą pewnością miałeś kiedyś znieczulenie u dentysty! Ja bez niego nie siadam na fotel. Robienie min ze znieczuleniem - polecam spróbować.
 
