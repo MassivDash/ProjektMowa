@@ -115,7 +115,7 @@ export default class IndexPage extends React.Component {
                                 dotsDisabled={true}
                                 infinite={true}
                                 buttonsDisabled={true}
-                                 ref={ el => this.Carousel = el }>
+                                ref={ el => this.Carousel = el }>
                                 {Slides}
                             </Slider>
                             <button className="prevButton" onClick={() => this.Carousel._slidePrev()}> &#8592;  </button>

@@ -73,7 +73,7 @@ class Navbar extends Component {
       
        </div>
        <div className="navbar-end">
-       <a href="https://faceboook.com/projektmowa" className="navbar-item" >    
+       <a href="https://www.facebook.com/projektmowa.neurologopeda/" className="navbar-item" >    
           <figure className="image is-24x24">
     <img src={fb} alt="Projket Mowa Facebook" />
     </figure>
@@ -84,7 +84,7 @@ class Navbar extends Component {
     </figure>
     </a>
 
-    <a href="https://instagram.com/projektmowa" className="navbar-item" >
+    <a href="https://www.instagram.com/pysklomarta/" className="navbar-item" >
     <figure className="image is-24x24">
     <img src={instagram} alt="Projekt Mowa Instagram" />
     </figure>
