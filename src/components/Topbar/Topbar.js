@@ -36,12 +36,12 @@ const Topbar = () => (
                         <img src={fb} alt="Projket Mowa Facebook"/>
                     </figure>
                 </a>
-                <a href="https://twitter.com/MowaPysk" className="navbar-item">
+                <a href="https://twitter.com/ProjektMowa" className="navbar-item">
                     <figure className="image is-24x24">
                         <img src={twitter} alt="Projekt Mowa Twitter"/>
                     </figure>
                 </a>
-                <a href="https://www.instagram.com/pysklomarta/" className="navbar-item">
+                <a href="https://www.instagram.com/pysklomarta_projektmowa/" className="navbar-item">
                     <figure className="image is-24x24">
                         <img src={instagram} alt="Projekt Mowa Instagram"/>
                     </figure>
