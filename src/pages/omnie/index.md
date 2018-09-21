@@ -5,7 +5,7 @@ thumbnail: /img/omnie.jpg
 description: >-
   Projekt Mowa to moje dziecko, które puszczam w świat z przesłaniem, że
   logopedia nie musi być nudna i jest dla każdego! Chcę szerzyć świadomość,
-  obalać mity i w przystępnej formie mówić o logopedii.
+  obalać mity i pisać o niej w przystępnej formie.
 ---
 ![null](/img/omnie.jpg)
 
@@ -24,4 +24,4 @@ Prowadzę prywatną praktykę oraz współpracuję z Niepublicznym Ośrodkiem Te
 Kiedy nie pracuję, staram się opanować trudną sztukę odpoczynku. Tworzę wokół siebie chaos i specjalizuję się w panowaniu nad nim. Bez dobrych ludzi czuję się jak ryba bez wody. Upieram się, że kiedyś się wyśpię i napiszę książkę. Czytam Tolkiena, kiedy mam czas – rysuję, a ostatnio gotuję, testując nowe przepisy.
 Nie mogłabym żyć bez muzyki – to moje uzależnienie. Żałuję, że nie mogę częściej podróżować, zwłaszcza w góry i do Włoch. Jestem miłośniczką dobrego kina i seriali Netflixa.
 
-## Projekt Mowa to moje dziecko, które puszczam w świat z przesłaniem, że logopedia nie musi być nudna i jest dla każdego! Chcę szerzyć świadomość, obalać mity i w przystępnej formie mówić o logopedii.
+## Projekt Mowa to moje dziecko, które puszczam w świat z przesłaniem, że logopedia nie musi być nudna i jest dla każdego! Chcę szerzyć świadomość, obalać mity i pisać o niej w przystępnej formie.
