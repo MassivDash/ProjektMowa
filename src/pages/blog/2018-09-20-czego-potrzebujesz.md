@@ -11,7 +11,7 @@ tags:
   - komunikacja
   - rozwój mowy
 ---
-## Zastanawiałeś się kiedyś co jest potrzebne byś mówił? 
+## Zastanawiałeś się kiedyś co jest potrzebne byś mówił?
 
 **Niektóre rzeczy traktujemy w sposób tak oczywisty, że nie zdajemy sobie sprawy jak skomplikowanym i genialnym mechanizmem jest nasze ciało. Ba, całe życie!**
 
@@ -23,7 +23,7 @@ O czym ja piszę? Ano o niektórych fundamentach mowy. O tych rzeczach, bez któ
 
 \- myśl, intencja komunikacyjna – dobrze wiedzieć, co chce się powiedzieć i czy w ogóle się chce oraz zauważa potrzebę mówienia i komunikowania się z innymi;
 
-\- umiejętności naśladowcze - bo się wielu nowych umiejętności najczęściej przez naśladowanie;
+\- umiejętności naśladowcze - bo się wielu nowych umiejętności najczęściej uczmy się przez naśladowanie;
 
 \- prawidłowa budowa i praca aparatu artykulacyjnego – inaczej brzmi człowiek z mocno wysuniętą żuchwą (przodozgryzem, przodożuchwiem), a inaczej kiedy wkłada język między zęby podczas mówienia;
 
