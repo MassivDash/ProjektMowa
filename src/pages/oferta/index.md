@@ -2,7 +2,7 @@
 templateKey: oferta-page
 title: Oferta
 thumbnail: /img/background.jpg
-description: oferta
+description: 'Logopedia dla dorosłych, młodzieży i dzieci.'
 ---
 **Pracuję z młodzieżą i dorosłymi.** Przygotowuję do wystąpień od strony logopedycznej. W zależności od wyników diagnozy i potrzeb klienta, pracujemy nad:
 
