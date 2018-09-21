@@ -11,7 +11,7 @@ tags:
   - komunikacja
   - rozwój mowy
 ---
-## **Zastanawiałeś się kiedyś co jest potrzebne byś mówił? **
+## Zastanawiałeś się kiedyś co jest potrzebne byś mówił? 
 
 **Niektóre rzeczy traktujemy w sposób tak oczywisty, że nie zdajemy sobie sprawy jak skomplikowanym i genialnym mechanizmem jest nasze ciało. Ba, całe życie!**
 
